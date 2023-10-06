@@ -1,18 +1,17 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-IN160)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-IN160)
 
-# IN160 - Discover next-generation hybrid integration with Edge Integration Cell
+# IN160 - Discover next-generation hybrid integrations with Edge Integration Cell
 
-## Learn about Edge Integration cell, the next-generation hybrid integration runtime offered with SAP Integration Suite, which would enable you to manage APIs and run integration scenarios within your landscape
- (private cloud or on-premise). In this session, you will learn to setup and operate Edge Integration Cell, design integrations and APIs, run and monitor them on Edge Integration Cell. 
-
+Learn about Edge Integration cell, the next-generation hybrid integration runtime offered with SAP Integration Suite, which would enable you to manage APIs and run integration scenarios within your landscape (private cloud or on-premise). 
 
 ## Overview
 
-This session introduces attendees to...
+In this session, you will learn to setup and operate Edge Integration Cell, design integrations and APIs, run and monitor them on Edge Integration Cell. 
 
-## Requirements
+## Pre-requisites
 
-The requirements to follow the exercises in this repository are...
+1. Assign yourself an SAP Integration Suite Tenant using Tenant Booker App.
+2. Use the UserID & Password provided by the Session Instructors to log in and check system access.
 
 ## Exercises
 
