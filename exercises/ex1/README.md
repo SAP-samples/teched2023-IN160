@@ -1,6 +1,6 @@
-# Exercise 1 - Exercise 1 Description
+# Exercise 1 - Edge Integration Cell Pre-requisites
 
-In this exercise, we will create...
+In this exercise, we will learn about the pre-requisites needed to follow along the installation steps. 
 
 ## Exercise 1.1 Sub Exercise 1 Description
 
