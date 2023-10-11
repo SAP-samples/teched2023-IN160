@@ -13,6 +13,12 @@ In this session, you will learn to setup and operate Edge Integration Cell, desi
 1. Assign yourself an SAP Integration Suite Tenant using Tenant Booker App.
 2. Use the UserID & Password provided by the Session Instructors to log in and check system access.
 
+## Read this first
+
+It needs to be pointed out that not all portions in today's lab can be performed as a hands-on exercise in the short allotted time. This is owing to the nature of complexity in presenting a 'hybrid' software. As you might have already guessed, installing a container orchestration engine like Kubernetes in an on-premise location from scratch based out of hosted providers like AKS or EKS can be quite daunting from a resource, cost, and operations perspective. 
+In terms of the software pre-requisites, Account setup, DNS management, etc. there are  hyperscaler, domain, IP, and network dependencies that go beyond SAP's ownership. 
+Unfortunately, we cannot have each one of you in the room today to perform a step-by-step installation. Nevertheless, to leave you a fulfilling experience, we have recorded a begin-to-finish video and annotated the timestamps so that you can follow along/play/pause with our step-by-step instructions.
+
 ## Exercises
 
 Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
