@@ -9,8 +9,8 @@ After completing these steps you will have created...
 1. Click here.
 <br>![](/exercises/ex1/images/01_01_0010.png)
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=frIt_8ZsEQQ
-" target="_blank"><img src="http://img.youtube.com/vi/frIt_8ZsEQQ/0.jpg" 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=frIt_8ZsEQQ&t=24s
+" target="_blank"><img src="http://img.youtube.com/vi/frIt_8ZsEQQ/1.jpg" 
 alt="IMAGE ALT TEXT HERE" width="350" height="280" border="10" /></a>
 
 3.	Insert this line of code.
