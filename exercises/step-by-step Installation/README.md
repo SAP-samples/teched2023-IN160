@@ -22,7 +22,7 @@ These are only few highlights and by no means an exhaustive list of system prere
 
 Here is the link to the video : <br> <br>
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=frIt_8ZsEQQ&t=24s
-" target="_blank"><img src="/exercises/ex1/images/01_01_0010.png" 
+" target="_blank"><img src="http://img.youtube.com/vi/frIt_8ZsEQQ/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="350" height="280" border="10" /></a>
 
 ## Setup steps
