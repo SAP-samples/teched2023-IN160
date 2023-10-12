@@ -21,11 +21,26 @@ These are only few highlights and by no means an exhaustive list of system prere
 ## Installation Video
 
 Here is the link to the video : <br> <br>
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=frIt_8ZsEQQ&t=24s
-" target="_blank"><img src="http://img.youtube.com/vi/frIt_8ZsEQQ/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="350" height="280" border="10" /></a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=frIt_8ZsEQQ&t=24s" target="_blank"><img src="http://img.youtube.com/vi/frIt_8ZsEQQ/0.jpg" alt="IMAGE ALT TEXT HERE" width="700" height="560" border="10" /></a>
 
 ## Setup steps
+
+Colons can be used to align columns.
+
+| Step No        | Detail           | Timestamp  | Video link  |
+| -------------- |:----------------:| ----------:| -----------:|
+| col 3 is      | right-aligneddd               ggggfdgsdgdfgsfgfesgrgrgrgr | $1600 | <a href="http://www.youtube.com/watch?feature=player_embedded&v=frIt_8ZsEQQ&t=24s" target="_blank"><img src="http://img.youtube.com/vi/frIt_8ZsEQQ/0.jpg" alt="IMAGE ALT TEXT HERE" width="350" height="280" border="10" /></a> |
+| col 2 is      | centered      |   $12 | <a href="http://www.youtube.com/watch?feature=player_embedded&v=frIt_8ZsEQQ&t=24s" target="_blank"><img src="http://img.youtube.com/vi/frIt_8ZsEQQ/0.jpg" alt="IMAGE ALT TEXT HERE" width="350" height="280" border="10" /></a> |
+| zebra stripes | are neat      |    $1 | <a href="http://www.youtube.com/watch?feature=player_embedded&v=frIt_8ZsEQQ&t=24s" target="_blank"><img src="http://img.youtube.com/vi/frIt_8ZsEQQ/0.jpg" alt="IMAGE ALT TEXT HERE" width="350" height="280" border="10" /></a> |
+
+There must be at least 3 dashes separating each header cell.
+The outer pipes (|) are optional, and you don't need to make the 
+raw Markdown line up prettily. You can also use inline Markdown.
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
 
 ## Summary
 
