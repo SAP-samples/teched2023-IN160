@@ -27,10 +27,10 @@ Here is the link to the video : <br> <br>
 
 Colons can be used to align columns.
 
-| Step No        | Detail           | Timestamp  | Video link  |
-| -------------- |:----------------:| ----------:| -----------:|
-| col 3 is      | right-aligneddd               ggggfdgsdgdfgsfgfesgrgrgrgr | $1600 | <a href="http://www.youtube.com/watch?feature=player_embedded&v=frIt_8ZsEQQ&t=24s" target="_blank"><img src="http://img.youtube.com/vi/frIt_8ZsEQQ/0.jpg" alt="IMAGE ALT TEXT HERE" width="350" height="280" border="10" /></a> |
-| col 2 is      | centered      |   $12 | <a href="http://www.youtube.com/watch?feature=player_embedded&v=frIt_8ZsEQQ&t=24s" target="_blank"><img src="http://img.youtube.com/vi/frIt_8ZsEQQ/0.jpg" alt="IMAGE ALT TEXT HERE" width="350" height="280" border="10" /></a> |
+| Step No        | Detail           | Timestamp  |  Video link <img width=1400/>|
+| -------------- |:----------------| ----------| :------------------------------|
+| 1     | <u>Activate Edge Integration Cell feature </u> <br><br> In the Integration Suite landing page, you will see there is a new 'Runtime' section within 'Settings'. This section holds the step to activate the 'Edge Integration Cell' feature. Under the hood, it creates a subscription to a capability called 'Edge Lifecycle Management' (ELM), the management or the control plane that controls the lifecycle of the Edge runtime nodes | 0:0 - 0:24 sec | <a href="http://www.youtube.com/watch?feature=player_embedded&v=frIt_8ZsEQQ" target="_blank"><img src="http://img.youtube.com/vi/frIt_8ZsEQQ/0.jpg" alt="IMAGE ALT TEXT HERE" width="350" height="280" border="10" /></a> |
+| 2      | Setup the Role Collection needed to access the ELM. <br><br> First, we create a role collection, say 'EdgeLMAccess', and assign the newly available role named 'EdgeLMAccess'. After this, we assign the email address of the technical P-User mentioned in step 3 of the pre-requisites section to this Role Collection. Next, head over to the Cloud Connector Administrator Role Collection and make sure the same user has this assignment as well. These are two mandatory steps. |   1:39 | <a href="http://www.youtube.com/watch?feature=player_embedded&v=frIt_8ZsEQQ&t=24s" target="_blank"><img src="http://img.youtube.com/vi/frIt_8ZsEQQ/0.jpg" alt="IMAGE ALT TEXT HERE" width="350" height="280" border="10" /></a> |
 | zebra stripes | are neat      |    $1 | <a href="http://www.youtube.com/watch?feature=player_embedded&v=frIt_8ZsEQQ&t=24s" target="_blank"><img src="http://img.youtube.com/vi/frIt_8ZsEQQ/0.jpg" alt="IMAGE ALT TEXT HERE" width="350" height="280" border="10" /></a> |
 
 There must be at least 3 dashes separating each header cell.
