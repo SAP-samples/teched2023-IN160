@@ -1,10 +1,11 @@
-# Exercise 1 - Edge Integration Cell Pre-requisites
+# Step-by-step installation of Edge Integration Cell
 
-In this exercise, we will learn about the pre-requisites needed to follow along the installation steps. 
+In this exercise, we will follow along with a recorded step-by-step video that takes us through the Edge Integration Cell installation. 
 
-## Exercise 1.1 Sub Exercise 1 Description
+## System pre-requisites
 
-After completing these steps you will have created...
+The installation assumes that the following pre-requisites have been met:
+1.  A technical user (P-User) already exists to perform an implicit Cloud Connector installation during the Kubernetes bootstrapping process. Pls note that Cloud Connector comes in only for the management plane flows (and not during the actual API / IFlow execution)
 
 1. Click here.
 <br>![](/exercises/ex1/images/01_01_0010.png)
