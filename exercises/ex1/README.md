@@ -1,11 +1,11 @@
 
-# Exercise 1 - Exercise 1 Description
+# Exercise 1 - Access & Explore SAP Integration Suite tenant
 
-In this exercise, we will create...
+In this exercise, you will get access to an SAP Integration Suite tenant, get intorduced to different capabilities and explore navigation across different aspects of SAP Interation Suite tooling.
 
-## Exercise 1.1 Sub Exercise 1 Description
+## Exercise 1.1 Access SAP Integration Suite tenant
 
-After completing these steps you will have created...
+
 
 1. Click here.
 <br>![](/exercises/ex1/images/02_01_0010.png)
