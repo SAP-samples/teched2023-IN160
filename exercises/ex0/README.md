@@ -1,10 +1,12 @@
-# Level 1 Heading
+# Getting Started
 
-In this exercise, you will...
+In this exercise, you will learn and get an overview of SAP Integration Suite and Edge Integration Cell. This will set the context and help you execute the rest of the exercises.
 
-## Level 2 Heading
+## What is SAP Integration Suite?
 
 After completing these steps you will have....
+
+## What is Edge Integration Cell and how it enables Hybrid Integrations?
 
 1.	Click here.
 <br>![](/exercises/ex0/images/00_00_0010.png)
