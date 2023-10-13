@@ -1,4 +1,4 @@
-# Discover, design and run pre-built standard Integrations on Edge Integration Cell
+# Discover, design and run pre-built standard integrations on Edge Integration Cell
 
 In this exercise, we will create...
 
