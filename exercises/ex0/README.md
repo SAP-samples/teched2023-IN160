@@ -34,4 +34,4 @@ Key Highlights:
 ## Summary
 
 Now that you got an overview of SAP Integration Suite and Edge Integration Cell, 
-Continue to - [Exercise 1 - Exercise 1 Description](../ex1/README.md)
+continue to - [Exercise 1 - Exercise 1 Description](../ex1/README.md)
