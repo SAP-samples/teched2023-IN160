@@ -3,7 +3,7 @@
 
 In this exercise, you will get access to an SAP Integration Suite tenant, get intorduced to different capabilities and explore navigation across different aspects of SAP Interation Suite tooling.
 
-## Exercise 1.1 Access SAP Integration Suite tenant
+## Access SAP Integration Suite tenant
 
 For running through the exercise steps, we will provide an SAP Integration Suite tenant. Tenant URL as well as user logon information will be provided to you via self-registration through the Tenant Booker Application:
 
@@ -18,7 +18,7 @@ For running through the exercise steps, we will provide an SAP Integration Suite
 
 <br>![Tenant Booker App](/exercises/ex1/images/TB.jpg)
 
-## Exercise 1.2 Explore SAP Integration Suite tooling
+## Explore SAP Integration Suite tooling
 
 After completing these steps you will have...
 
