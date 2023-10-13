@@ -6,7 +6,7 @@ Learn about Edge Integration cell, the next-generation hybrid integration runtim
 
 ## Overview
 
-In this session, you will learn to setup and operate Edge Integration Cell, design integrations and APIs, run and monitor them on Edge Integration Cell. 
+In this session, you will learn to activate, setup and operate Edge Integration Cell, design integrations and APIs, run and monitor them on Edge Integration Cell. 
 
 ## Pre-requisites
 
