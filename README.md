@@ -10,8 +10,10 @@ In this session, you will learn to setup and operate Edge Integration Cell, desi
 
 ## Pre-requisites
 
-1. Assign yourself an SAP Integration Suite Tenant using Tenant Booker App.
-2. Use the UserID & Password provided by the Session Instructors to log in and check system access.
+There are no pre-requistes for this hands-on session. You can perform this even if you do not have any experience with integration solutions. However, you will be able to derive a lot of value from this session if you have some knowledge on what SAP Integration Suite is all about and how it helps with enterprise-wide integration needs.
+
+Here is a mission that can help you getting started with SAP Integration Suite:
+- [Get Started with Integration Suite](https://discovery-center.cloud.sap/protected/index.html#/missiondetail/3258/3327/)
 
 ## Read this first
 
