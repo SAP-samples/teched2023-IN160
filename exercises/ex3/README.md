@@ -73,7 +73,30 @@ After changing the values, click on "Save All"
 22.	Click on "Integrations and APIs" from the Monitor navigation item on the left pane. 
 <br>![](/exercises/ex3/images/23.png)
 
-23.	
+23.	In the Overview page, from the listed Runtime, select the Runtime location where the artifact is deployed in Step 19
+<br>![](/exercises/ex3/images/24.png)
+
+24.	Click on tile "All" under "Manage Integration Content"
+<br>![](/exercises/ex3/images/25.png)
+
+25.	Verify that the Standard Content deployed in Step 19 is in Started state
+<br>![](/exercises/ex3/images/26.png)
+
+27.	Copy the generated endpoint
+<br>![](/exercises/ex3/images/27.png)
+
+28.	Open the Insomnia installed in your system, and paste the URL in the address and click Send. Wait for successful 200 response.
+```url
+https://az-slc.edge.integration.int.cloud.sap/http/s4onpremise/order
+```
+<br>![](/exercises/ex3/images/28.png)
+
+29.	Go back to the Integration Suite UI and follow step 22 to step 23. 
+Navigate to tile "All Artifacts" under "Monitor Message Processing"
+<br>![](/exercises/ex3/images/29.png)
+
+30.	A successful message processing entry will be shown
+<br>![](/exercises/ex3/images/30.png)
 
 ## Summary
 
