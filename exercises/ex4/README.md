@@ -30,7 +30,7 @@ In the final part of the tutorial, we will create an API, which is a unified ent
 
  <br>![](/exercises/ex4/images/04_06_0010.png) 
 
- 7. Navigate to the policy tab and this is how the starter content should look like. As you can see the Authentication policy appears by default
+ 7. Click on Edit and navigate to the policy tab and this is how the starter content should look like. As you can see the Authentication policy appears by default. Double click on the authentication policy and navigate to the property sheet at the bottom. By default Basic is not enabled and as an exercise, you should enable the Basic checkbox from the multi-select drop-down
 
  <br>![](/exercises/ex4/images/04_07_0010.png) 
 
