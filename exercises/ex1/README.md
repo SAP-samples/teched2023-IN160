@@ -20,7 +20,37 @@ For running through the exercise steps, we will provide an SAP Integration Suite
 
 ## Explore SAP Integration Suite tooling
 
-After completing these steps you will have...
+Log in to SAP Integration Suite tenan
+
+Home
+<br>![](/exercises/ex1/images/Home.jpg)
+
+Recent Activities & Monitoring 
+<br>![](/exercises/ex1/images/Home-Recent.jpg)
+
+Capabilities
+<br>![](/exercises/ex1/images/Home-Capabilities.jpg)
+
+Learning & Feedback
+<br>![](/exercises/ex1/images/Home-Resources.jpg)
+
+Discover
+<br>![](/exercises/ex1/images/Discover.jpg)
+
+Design
+<br>![](/exercises/ex1/images/Design.jpg)
+
+Test
+<br>![](/exercises/ex1/images/Test-APIs.jpg)
+
+<br>![](/exercises/ex1/images/IS.jpg)
+<br>![](/exercises/ex1/images/IS.jpg)
+<br>![](/exercises/ex1/images/IS.jpg)
+<br>![](/exercises/ex1/images/IS.jpg)
+<br>![](/exercises/ex1/images/IS.jpg)
+<br>![](/exercises/ex1/images/IS.jpg)
+<br>![](/exercises/ex1/images/IS.jpg)
+<br>![](/exercises/ex1/images/IS.jpg)
 
 
 
