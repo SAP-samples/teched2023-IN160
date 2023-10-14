@@ -4,7 +4,7 @@ In the previous exercise we have Activated and deployed an Edge Integration Cell
 
 ##  Description
 
-After completing these steps you will have created...
+After completing these steps you will have deployed a Standard Integration on Edge Integration Cell and successfully executed it with On-Premise S/4 HANA system.
 
 1. Navigate back to Home. In the Home page navigate to Capabilities and click on "Discover Integrations" under Build Integration Scenarios tile.
 <br>![](/exercises/ex3/images/image.png)
