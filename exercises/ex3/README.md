@@ -6,10 +6,15 @@ In the previous exercise we have Activated and deployed an Edge Integration Cell
 
 After completing these steps you will have created...
 
-1. Click here.
+1. Navigate back to Home. In the Home page Navigate to Capabilities and click on "Discover Integrations" under Build Integration Scenarios tile.
+
+![image](https://github.com/SAP-samples/teched2023-IN160/assets/12845154/58a7e175-a23a-42e0-ac95-8c3b7d32fbc2)
+![image](https://github.com/SAP-samples/teched2023-IN160/assets/12845154/8c0f4666-ed16-4958-83be-e775d0e337f0)
+
+
 <br>![](/exercises/ex2/images/02_01_0010.png)
 
-2.	Insert this line of code.
+3.	Insert this line of code.
 ```abap
 response->set_text( |Hello ABAP World! | ). 
 ```
