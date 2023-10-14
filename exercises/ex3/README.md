@@ -1,6 +1,6 @@
 # Discover, design and run pre-built standard integrations on Edge Integration Cell
 
-In this exercise, we will create...
+Now that you have Activated and deployed an Edge Integration Cell, let's look at how you can Discover, design and run pre-built standard Integrations on Edge Integration Cell. In this exercise you will use a pre-built standard content to connect to S/4 HANA backend system, trigger execution of the content deployed at Edge Integration Cell and perform operations like update of the S/4 data objects.
 
 ##  Description
 
