@@ -1,26 +1,37 @@
-# Level 1 Heading
+# Getting Started
 
-In this exercise, you will...
+Let´s start with an overview of SAP Integration Suite and Edge Integration Cell. This will set the context and help you execute the rest of the exercises.
 
-## Level 2 Heading
+## What is SAP Integration Suite?
 
-After completing these steps you will have....
+SAP Integration Suite is an Enterprise integration platform-as-a-service (EiPaaS) that helps to quickly integrate on-premise and cloud-based processes, services, applications, events, and data. 
 
-1.	Click here.
-<br>![](/exercises/ex0/images/00_00_0010.png)
+Key highlights:
+- Prebuilt integrations, APIs and events managed and updated by SAP
+- Harmonized access to popular third-party cloud applications
+- Supports A2A, B2B, B2G, API-based and event-driven integrations 
+- Tools for designing, publishing, and managing APIs
+- AI-assisted development and integration optimization
+- Tools-based, guided approach to define, document, and govern your integration strategy
+- Leader in multiple analyst ratings including Gartner and IDC 
 
-2.	Insert this code.
-``` abap
- DATA(params) = request->get_form_fields(  ).
- READ TABLE params REFERENCE INTO DATA(param) WITH KEY name = 'cmd'.
-  IF sy-subrc <> 0.
-    response->set_status( i_code = 400
-                     i_reason = 'Bad request').
-    RETURN.
-  ENDIF.
-```
+<br>![](/exercises/ex0/images/IS.jpg)
+
+## What is Edge Integration Cell and how it enables Hybrid Integrations?
+
+“Edge Integration Cell” is the new hybrid integration runtime, offered as an optional extension to SAP Integration Suite, enabling customers to run their API-led integration scenarios within customer-managed private landscapes. 
+
+Key Highlights:
+- Flexible deployment option in customer´s kubernetes environments e.g. Azure AKS, AWS EKS and Suse Rancher 
+- Supports use cases of data compliance and governance by processing data locally
+- Route business events from SAP applications to  event brokers
+- Configure and manage mulitple Edge Integration Cells with an SAP Integration Suite cloud tenant
+- Business continuity during temporary connectivity loss (upto 4 hrs)
+- Migration path for PI/PO customers 
+
+<br>![](/exercises/ex0/images/EIC.jpg)
 
 ## Summary
 
-Now that you have ... 
-Continue to - [Exercise 1 - Exercise 1 Description](../ex1/README.md)
+Now that you got an overview of SAP Integration Suite and Edge Integration Cell, 
+continue to - [Exercise 1 - Exercise 1 Description](../ex1/README.md)
