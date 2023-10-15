@@ -30,8 +30,8 @@ In the final part of the tutorial, we will create an API, which is a unified ent
 
  <br>![](/exercises/ex4/images/04_06_0010.png) 
 
- 7. Click on Edit and navigate to the policy tab and this is how the starter content should look like. As you can see the Authentication policy appears by default. Double click on the authentication policy and navigate to the property sheet at the bottom. By default Basic is not enabled and as an exercise, you should enable the Basic checkbox from the multi-select drop-down
-
+ 7. Click on Edit and navigate to the policy tab and this is how the starter content should look like. As you can see the Authentication policy appears by default. Double click on the authentication policy and navigate to the property sheet at the bottom. By default Basic is not enabled and as an exercise, you should enable the Basic checkbox from the multi-select drop-down and click on Save
+ 
  <br>![](/exercises/ex4/images/04_07_0010.png) 
 
  8. Click on the Authentication policy and you should see a pop-up with a set of actions. Click on the "+" icon
@@ -42,11 +42,28 @@ In the final part of the tutorial, we will create an API, which is a unified ent
 
 <br>![](/exercises/ex4/images/04_09_0010.png) 
 
-10. Navigate the surge protection policy and add the required details. The current configuration allows 6 calls over a span of 10 seconds
+10. Navigate the surge protection policy and add the required details in respective property sheet. The current configuration allows 5 calls over a span of 10 seconds
     
 <br>![](/exercises/ex4/images/04_10_0010.png) 
 
-11. Click on the Surge Protection policy and you should see a pop-up with a set of actions. Click on the "+" icon and select Quota
+11. Click on the Surge Protection policy and you should see a pop-up with a set of actions. Click on the "+" icon and select Quota Policy. Double click on the quota policy and select the "Fixed" option from the dropdown
 
 <br>![](/exercises/ex4/images/04_11_0010.png)  
+
+12. Select the convenient time in the past from the Start Time (UTC) option using the control which pops up. Please note that the timestamp is in UTC. For the sake of this exercise , we have selected 12th October 11:00:00 (UTC) as the timestamp
+
+<br>![](/exercises/ex4/images/04_12_0010.png)
+
+13. Fill in the remaining fields in the Quota Policy property sheet and click on Save. For the purpose of this exercise, we are allowing 12 calls in a span of 30 seconds for any client which tries to access the API. The client id should be passed as part of the incoming request. We would pass this during the testing of the API
+
+<br>![](/exercises/ex4/images/04_13_0010.png)
+
+14. Click on Quota policy and when the pop up opens, click on the "+" icon. Select the Content Modifier step under the Transfomration section
+
+<br>![](/exercises/ex4/images/04_13_0010.png)
+
+15. Navigate to the property sheet of the content modifier and add a custom header as shown in the image below. Please replace the "xx" with your respective user id
+
+<br>![](/exercises/ex4/images/04_14_0010.png)
+
     
