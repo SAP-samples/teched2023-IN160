@@ -62,8 +62,24 @@ In the final part of the tutorial, we will create an API, which is a unified ent
 
 <br>![](/exercises/ex4/images/04_13_0010.png)
 
-15. Navigate to the property sheet of the content modifier and add a custom header as shown in the image below. Please replace the "xx" with your respective user id
+15. Navigate to the property sheet of the content modifier and under the Message Header subtab add a custom header as shown in the image below. Click on Save
 
 <br>![](/exercises/ex4/images/04_14_0010.png)
+
+16. Now click on Deploy and this shall trigger the deployment of the content to the configured runtime edge location 
+
+<br>![](/exercises/ex4/images/04_15_0010.png)
+
+17. Navigate to the monitoring tab and select the appropriate runtime location from the dropdown where the content is deployed
+
+<br>![](/exercises/ex4/images/04_16_0010.png)
+
+18. Click on Manage Integration Content and confirm that the deployed artifact is in a "Started" state
+
+<br>![](/exercises/ex4/images/04_17_0010.png)
+
+19. From the dropdown, we would select Debug as the log level such that later on post execution of the API , we can visualize the execution of policies and steps in the deployed artifact
+
+<br>![](/exercises/ex4/images/04_17_0010.png)
 
     
