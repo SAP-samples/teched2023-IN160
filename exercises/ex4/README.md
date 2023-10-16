@@ -54,7 +54,7 @@ In the final part of the tutorial, we will create an API, which is a unified ent
 
 <br>![](/exercises/ex4/images/04_12_0010.png)
 
-13. Fill in the remaining fields in the Quota Policy property sheet and click on Save. For the purpose of this exercise, we are allowing 12 calls in a span of 30 seconds for any client which tries to access the API. The client id should be passed as part of the incoming request. We would pass this during the testing of the API
+13. Fill in the remaining fields in the Quota Policy property sheet and click on Save. For the purpose of this exercise, we are allowing 12 calls in a span of 30 seconds for any client which tries to access the API. The field "Quota Identifier" should uniquely identify the client against which the quota is assigned. As part of the highlighted configuration ,it expects "clientkey" header as part of the incoming request to contain the value of the client identifier. Failing to pass this header in the incoming request should fail the policy and hence the request, that is in accordance with the "On Error" configuration which is configured to "Abort" the request if the policy fails. We would verify this during the testing of the API
 
 <br>![](/exercises/ex4/images/04_13_0010.png)
 
@@ -74,12 +74,29 @@ In the final part of the tutorial, we will create an API, which is a unified ent
 
 <br>![](/exercises/ex4/images/04_16_0010.png)
 
-18. Click on Manage Integration Content and confirm that the deployed artifact is in a "Started" state
+18. Click on Manage Integration Content and confirm that the deployed artifact is in a "Started" state and the API is deployed successfully
 
 <br>![](/exercises/ex4/images/04_17_0010.png)
 
 19. From the dropdown, we would select Debug as the log level such that later on post execution of the API , we can visualize the execution of policies and steps in the deployed artifact
 
-<br>![](/exercises/ex4/images/04_17_0010.png)
+<br>![](/exercises/ex4/images/04_18_0010.png)
 
     
+20. Now that we have successfully deployed the API , it is time to test the API. Lets make a call to the deployed artifact endpoint. It should throw an error as shown below since the clientkey header is not passed as part of the incoming request as mentioned in step 12
+
+<br>![](/exercises/ex4/images/04_19_0010.png)
+
+21. Add the required header as part of the request.
+
+<br>![](/exercises/ex4/images/04_20_0010.png)
+
+22. Now , we would try to violate the surge protection policy by invoking the same request multiple times and ideally , if we press the send button more than 6 times in span of 10 seconds, the surge protection policy should start blocking the requests.
+
+<br>![](/exercises/ex4/images/04_21_0010.png)
+
+
+
+
+
+
