@@ -96,7 +96,11 @@ In the final part of the tutorial, we will create an API, which is a unified ent
 <br>![](/exercises/ex4/images/04_21_0010.png)
 
 
+## Summary
 
-
+You've now completed the following:
+1.  Able to model an API 
+2.  Deployed it on the Edge Integration Cell
+3.  Execute the API and violate the surge protection policy successfully which prevents the backend from traffic surges
 
 
