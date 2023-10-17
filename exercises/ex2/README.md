@@ -49,5 +49,5 @@ In this section, we present a breakdown of each step, an explanation of what the
 
 You've now followed along the steps needed to install and configure the Edge Integration Cell hybrid software. 
 
-Continue to - [Exercise 3 - Exercise 3 Description](../ex3/README.md)
+Continue to - [Exercise 3 - Discover, design and run pre-built standard Integrations on Edge Integration Cell](../ex3/README.md)
 
