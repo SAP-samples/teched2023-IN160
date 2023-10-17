@@ -58,4 +58,4 @@ Test
 
 You've now ...
 
-Continue to - [Exercise 2 - Excercise 2 ](../ex2/README.md)
+Continue to - [Exercise 2 -  Step-by-step installation of Edge Integration Cell](../ex2/README.md)
