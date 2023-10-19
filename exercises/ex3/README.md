@@ -11,6 +11,7 @@ After completing these steps you will have deployed a Standard Integration on Ed
 
 2.  In the "Discover (Integrations)" view, navigate to the Search text box and enter the following package name: "SAP Order Management Foundation Integration with SAP S/4HANA" and click Enter. From the list of results, click on listed package "SAP Order Management Foundation Integration with SAP S/4HANA" 
 <br>![](/exercises/ex3/images/3.png)
+![image](https://github.com/SAP-samples/teched2023-IN160/assets/40532486/39fae1f1-c942-478b-999f-d85449e31101)
 
 3.  In the package detail view, click on Copy button placed at top-right corner of the detail view
 <br>![](/exercises/ex3/images/4.png)
@@ -68,7 +69,8 @@ After changing the values, click on "Save All"
 <br>![](/exercises/ex3/images/21.png)
 
 21.	Once the deployment is successful, a confirmation toast message will be shown
-<br>![](/exercises/ex3/images/22.png)
+<br>![](/exercises/ex3/![image](https://github.com/SAP-samples/teched2023-IN160/assets/40532486/a1c50a93-3de0-40cb-8fef-3d4385a36ebf)
+)
 
 22.	Click on "Integrations and APIs" from the Monitor navigation item on the left pane. 
 <br>![](/exercises/ex3/images/23.png)
