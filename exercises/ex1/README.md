@@ -43,14 +43,23 @@ Design
 Test
 <br>![](/exercises/ex1/images/Test-APIs.jpg)
 
-<br>![](/exercises/ex1/images/IS.jpg)
-<br>![](/exercises/ex1/images/IS.jpg)
-<br>![](/exercises/ex1/images/IS.jpg)
-<br>![](/exercises/ex1/images/IS.jpg)
-<br>![](/exercises/ex1/images/IS.jpg)
-<br>![](/exercises/ex1/images/IS.jpg)
-<br>![](/exercises/ex1/images/IS.jpg)
-<br>![](/exercises/ex1/images/IS.jpg)
+Configure
+<br>![](/exercises/ex1/images/Configure-APIs.jpg)
+
+Monitor
+<br>![](/exercises/ex1/images/Monitor-Integration.jpg)
+
+Inspect
+<br>![](/exercises/ex1/images/Inspect.jpg)
+
+Monetize
+<br>![](/exercises/ex1/images/Monetize.jpg)
+
+Settings - Integrations
+<br>![](/exercises/ex1/images/Settings-Integrations.jpg)
+
+Settings - Runtime
+<br>![](/exercises/ex1/images/Settings-Runtime.jpg)
 
 
 
