@@ -40,38 +40,47 @@ Last section of the Home page is the **Learning & Feedback**, where links to doc
 
 <br>![](/exercises/ex1/images/Home-Resources.jpg)
 
-Now if you look at the different navigation sections on the left, after **Home**, you will see **Discover**, which is a repository of all standard pre-built content (integrations, APIs and type systems) shipped by SAP. Based on your specific integration need, you can explore, search and copy to your **Design** workspace to kick-start your integration development.
+Now if you look at the different navigation sections on the left, after **Home**, you will see **Discover**, which is a repository of all standard pre-built content (integrations, APIs and type systems) shipped by SAP. Based on your specific integration need, you can explore, search and copy them to your **Design** workspace to kick-start your integration development.
 
 <br>![](/exercises/ex1/images/Discover.jpg)
 
-Design
+**Design** is your local workspace where you can design and configure integrations, APIs, message implementation guidelines, mapping guidelines, scripts and other integration artifacts.
+
 <br>![](/exercises/ex1/images/Design.jpg)
 
-Test
+
+**Test** your APIs and analyse the response you get from them
+
 <br>![](/exercises/ex1/images/Test-APIs.jpg)
 
-Configure
+**Configure**
+
 <br>![](/exercises/ex1/images/Configure-APIs.jpg)
 
-Monitor
+**Monitor**
+
 <br>![](/exercises/ex1/images/Monitor-Integration.jpg)
 
-Inspect
+**Inspect**
+
 <br>![](/exercises/ex1/images/Inspect.jpg)
 
-Monetize
+**Monetize**
+
 <br>![](/exercises/ex1/images/Monetize.jpg)
 
-Settings - Integrations
+**Settings - Integrations**
+
 <br>![](/exercises/ex1/images/Settings-Integrations.jpg)
 
-Settings - Runtime
+**Settings - Runtime**
+
 <br>![](/exercises/ex1/images/Settings-Runtime.jpg)
 
 
 
 ## Summary
 
-You've now ...
+You now have access to an SAP Integration Suite tenant and have explored the tooling and different navigation aspects.
 
 Continue to - [Exercise 2 -  Step-by-step installation of Edge Integration Cell](../ex2/README.md)
