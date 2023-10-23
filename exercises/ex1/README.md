@@ -40,7 +40,8 @@ Last section of the Home page is the **Learning & Feedback**, where links to doc
 
 <br>![](/exercises/ex1/images/Home-Resources.jpg)
 
-Discover
+Now if you look at the different navigation sections on the left, after **Home**, you will see **Discover**, which is a repository of all standard pre-built content (integrations, APIs and type systems) shipped by SAP. Based on your specific integration need, you can explore, search and copy to your **Design** workspace to kick-start your integration development.
+
 <br>![](/exercises/ex1/images/Discover.jpg)
 
 Design
