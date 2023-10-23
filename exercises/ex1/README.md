@@ -73,7 +73,7 @@ In the **Monitor** section, you can check the deployment status, look at message
 <br>![](/exercises/ex1/images/Inspect.jpg)<br><br><br>
 
 
-**Monetize**
+You can use **Monetize** to define rate plans for the API Products that you build and check the API usage pattern. The in-built billing engine also generates the bills for you, which can be accessed across multiple channels.
 
 <br>![](/exercises/ex1/images/Monetize.jpg)<br><br><br>
 
