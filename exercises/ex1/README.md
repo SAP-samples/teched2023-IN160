@@ -9,14 +9,14 @@ In this exercise, you will
 
 For running through the exercise steps, you will need access to SAP Integration Suite tenants. Please pick one of these SAP Integration Suite tenant as per the assignment . You will also get the credentials to log in to these tenants from the instructors.
 
-   1. Please pick one of these **SAP Integration Suite tenant** as per your assignment shared by the instructors
+1. Please pick one of these **SAP Integration Suite tenant** as per your assignment shared by the instructors
       - Tenant 1: https://teched23blr05-hd53z03e.integrationsuite.cfapps.ap10.hana.ondemand.com/shell/home
 
       - Tenant 2: https://teched23blr06-5vu0gg0r.integrationsuite.cfapps.eu10.hana.ondemand.com/shell/home
         
-   2. Use the **username** and **password** shared by the instructors to login to these tenants
-      
-     <br>![](/exercises/ex1/images/Login.jpg)<br><br><br>
+2. Use the **username** and **password** shared by the instructors to login to these tenants   
+  
+<br>![](/exercises/ex1/images/Login.jpg)<br><br><br>
 
 
 ## Explore SAP Integration Suite tooling
