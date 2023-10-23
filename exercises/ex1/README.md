@@ -1,5 +1,5 @@
 
-# Exercise 1 - Access & Explore SAP Integration Suite
+# Exercise 1 - Access and explore SAP Integration Suite
 
 In this exercise, you will 
 - get access to an SAP Integration Suite tenant,
@@ -32,10 +32,12 @@ First section is the **Recent Activities & Monitoring**, which gives you a snaps
 
 <br>![](/exercises/ex1/images/Home-Recent.jpg)
 
-Capabilities
+Then you will see the list of **Capabilities** that are activated in this tenant. SAP Integration Suite provides many different capabilities like Cloud Integration, API Management, Integration Advisor, Trading Partner Management, Open Connectors, Integration Assessment and Migration Assessment, to address all your integration requirements.
+
 <br>![](/exercises/ex1/images/Home-Capabilities.jpg)
 
-Learning & Feedback
+Last section of the Home page is the **Learning & Feedback**, where links to documentation, tutorials, and also an option to request for addititional features.
+
 <br>![](/exercises/ex1/images/Home-Resources.jpg)
 
 Discover
