@@ -24,7 +24,7 @@ For running through the exercise steps, we will provide an SAP Integration Suite
 
 Log in to SAP Integration Suite tenant using the credentials provided to you by the instructors. Now let´s explore the different capabilties and navigations of SAP Integration Suite tooling
 
-#Home is the first screen that you will land upon logging in to SAP Integration Suite. 
+**Home** is the first screen that you will land upon logging in to SAP Integration Suite. Click on the burger icon on the top left corner to expland the navigation menu items.
 <br>![](/exercises/ex1/images/Home.jpg)
 
 Recent Activities & Monitoring 
