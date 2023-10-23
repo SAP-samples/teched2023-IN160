@@ -26,7 +26,7 @@ Log in to SAP Integration Suite tenant using the credentials provided to you by 
 
 **Home** is the first screen that you will land upon logging in to SAP Integration Suite. Click on the three lines icon on the top left corner to expland the navigation menu items.
 
-<br>![](/exercises/ex1/images/Home.jpg)<br>
+<br>![](/exercises/ex1/images/Home.jpg)<br><br><br>
 
 
 First section is the **Recent Activities & Monitoring**, which gives you a snapshot of what´s going on with the SAP Integration Suite tenant. It lists the artifacts that were worked upon and also the monitoring status of the deployed artifacts. You can navigate to them directly from here.
