@@ -1,7 +1,9 @@
 
 # Exercise 1 - Access & Explore SAP Integration Suite
 
-In this exercise, you will get access to an SAP Integration Suite tenant, get intorduced to different capabilities and explore navigation across different aspects of SAP Interation Suite tooling.
+In this exercise, you will 
+- get access to an SAP Integration Suite tenant,
+- get introduced to different capabilities and explore navigation across different aspects of SAP Interation Suite tooling.
 
 ## Access SAP Integration Suite tenant
 
@@ -20,9 +22,9 @@ For running through the exercise steps, we will provide an SAP Integration Suite
 
 ## Explore SAP Integration Suite tooling
 
-Log in to SAP Integration Suite tenan
+Log in to SAP Integration Suite tenant using the credentials provided to you by the instructors. Now let´s explore the different capabilties and navigations of SAP Integration Suite tooling
 
-Home
+#Home is the first screen that you will land upon logging in to SAP Integration Suite. 
 <br>![](/exercises/ex1/images/Home.jpg)
 
 Recent Activities & Monitoring 
