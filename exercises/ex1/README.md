@@ -7,18 +7,14 @@ In this exercise, you will
 
 ## Access SAP Integration Suite tenant
 
-For running through the exercise steps, we will provide an SAP Integration Suite tenant. Tenant URL as well as user logon information will be provided to you via self-registration through the Tenant Booker Application:
+For running through the exercise steps, you will need access to SAP Integration Suite tenants. Please pick one of these SAP Integration Suite tenant as per the assignment . You will also get the credentials to log in to these tenants from the instructors.
 
-1. Open the [Tenant Booker Application](https://techedtenantbookerapplication-ea8d400e6.dispatcher.eu2.hana.ondemand.com/index.html) and logon with the username/password provided to you.
-2. Book the tenant
-3. On the next screen, you will find all necessary information for accessing the tenant, see figure below
-   1. Your **user** and a **password** generated to be able to logon to the tenant design time UIs
-   2. The **tenant URL** for accessing the SAP Integration Suite landing page
-   3. The **token service URL**
-   4. **Client ID** and **Client Secret** required to authenticate to the Cloud Integration runtime
-4. Either copy and save the information in a text file or keep the browser window open
+   1. Please pick one of these **SAP Integration Suite tenant** as per your assignment shared by the instructors
+      - Tenant 1: https://teched23blr05-hd53z03e.integrationsuite.cfapps.ap10.hana.ondemand.com/shell/home
 
-<br>![Tenant Booker App](/exercises/ex1/images/TB.jpg)
+      - Tenant 2: https://teched23blr06-5vu0gg0r.integrationsuite.cfapps.eu10.hana.ondemand.com/shell/home
+   2. Use the **username** and **password** shared by the instructors to login to these tenants
+
 
 ## Explore SAP Integration Suite tooling
 
