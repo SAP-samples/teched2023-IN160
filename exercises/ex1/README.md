@@ -26,67 +26,67 @@ Log in to SAP Integration Suite tenant using the credentials provided to you by 
 
 **Home** is the first screen that you will land upon logging in to SAP Integration Suite. Click on the three lines icon on the top left corner to expland the navigation menu items.
 
-<br>![](/exercises/ex1/images/Home.jpg)<br><br><br>
+<br>![](/exercises/ex1/images/Home.jpg)<br><br>
 
 
 First section is the **Recent Activities & Monitoring**, which gives you a snapshot of what´s going on with the SAP Integration Suite tenant. It lists the artifacts that were worked upon and also the monitoring status of the deployed artifacts. You can navigate to them directly from here.
 
-<br>![](/exercises/ex1/images/Home-Recent.jpg)
+<br>![](/exercises/ex1/images/Home-Recent.jpg)<br><br>
 
 
 Then you will see the list of **Capabilities** that are activated in this tenant. SAP Integration Suite provides many different capabilities like Cloud Integration, API Management, Integration Advisor, Trading Partner Management, Open Connectors, Integration Assessment and Migration Assessment, to address all your integration requirements.
 
-<br>![](/exercises/ex1/images/Home-Capabilities.jpg)
+<br>![](/exercises/ex1/images/Home-Capabilities.jpg)<br><br>
 
 
 Last section of the Home page is the **Learning & Feedback**, where links to documentation, tutorials, and also an option to request for addititional features.
 
-<br>![](/exercises/ex1/images/Home-Resources.jpg)
+<br>![](/exercises/ex1/images/Home-Resources.jpg)<br><br>
 
 
 Now if you look at the different navigation sections on the left, after **Home**, you will see **Discover**, which is a repository of all standard pre-built content (integrations, APIs and type systems) shipped by SAP. Based on your specific integration need, you can explore, search and copy them to your **Design** workspace to kick-start your integration development.
 
-<br>![](/exercises/ex1/images/Discover.jpg)
+<br>![](/exercises/ex1/images/Discover.jpg)<br><br>
 
 
 **Design** is your local workspace where you can design and configure integrations, APIs, message implementation guidelines, mapping guidelines, scripts and other integration artifacts.
 
-<br>![](/exercises/ex1/images/Design.jpg)
+<br>![](/exercises/ex1/images/Design.jpg)<br><br>
 
 
 **Test** your APIs and analyse the response you get from them
 
-<br>![](/exercises/ex1/images/Test-APIs.jpg)
+<br>![](/exercises/ex1/images/Test-APIs.jpg)<br><br>
 
 
 **Configure**
 
-<br>![](/exercises/ex1/images/Configure-APIs.jpg)
+<br>![](/exercises/ex1/images/Configure-APIs.jpg)<br><br>
 
 
 **Monitor**
 
-<br>![](/exercises/ex1/images/Monitor-Integration.jpg)
+<br>![](/exercises/ex1/images/Monitor-Integration.jpg)<br><br>
 
 
 **Inspect**
 
-<br>![](/exercises/ex1/images/Inspect.jpg)
+<br>![](/exercises/ex1/images/Inspect.jpg)<br><br>
 
 
 **Monetize**
 
-<br>![](/exercises/ex1/images/Monetize.jpg)
+<br>![](/exercises/ex1/images/Monetize.jpg)<br><br>
 
 
 **Settings - Integrations**
 
-<br>![](/exercises/ex1/images/Settings-Integrations.jpg)
+<br>![](/exercises/ex1/images/Settings-Integrations.jpg)<br><br>
 
 
 **Settings - Runtime**
 
-<br>![](/exercises/ex1/images/Settings-Runtime.jpg)
+<br>![](/exercises/ex1/images/Settings-Runtime.jpg)<br><br>
 
 
 
