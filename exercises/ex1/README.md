@@ -18,7 +18,7 @@ For running through the exercise steps, you will need access to SAP Integration 
   
 <br>![](/exercises/ex1/images/Login.jpg)<br><br><br>
 
-
+   
 ## Explore SAP Integration Suite tooling
 
 Log in to SAP Integration Suite tenant using the credentials provided to you by the instructors. Now let´s explore the different capabilties and navigations of SAP Integration Suite tooling
