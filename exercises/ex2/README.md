@@ -1,4 +1,4 @@
-# Step-by-step installation of Edge Integration Cell
+# Activate and deploy Edge Integration Cell
 
 In this exercise, we will follow along with a recorded step-by-step video that takes us through the Edge Integration Cell installation. 
 
