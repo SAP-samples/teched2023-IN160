@@ -14,7 +14,7 @@ For running through the exercise steps, you will need access to SAP Integration 
 
       - Tenant 2: https://teched23blr06-5vu0gg0r.integrationsuite.cfapps.eu10.hana.ondemand.com/shell/home
         
-2. Use the **username** and **password** shared by the instructors to login to these tenants   
+2. Use the **username** and **password** shared by the instructors to login to the tenant assigned to you   
   
 <br>![](/exercises/ex1/images/Login.jpg)<br><br><br>
 
