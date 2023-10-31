@@ -105,7 +105,7 @@ After changing the values, click on "Save All"
 29. Set the payload. In the 'Body' tab, select JSON to add the JSON payload.
 <br>![](/exercises/ex3/images/insomniasetbody.png)
 
-31. Add the following payload in the body text area
+30. Add the following payload in the body text area
 
 ```json
 {
@@ -256,11 +256,17 @@ After changing the values, click on "Save All"
     - PASSWORD = 174ebb0d-4e0f-43dd-994a-58629ec524bf$mPrfigEVYsOs71X2jfWBkBB7e24Mi8M94xkCuREs1Yo=
 <br>![](/exercises/ex3/images/insomniabasicauthset.png)
 
-33.	Trigger the Endpoint - click on 'Send'. Upon success, you will receive '200 OK' status as a response. 
+33.	Trigger the Endpoint - click on 'Send'. Upon success, you will receive '200 OK' status as a response. Copy the "message ID" from the response 'message'
 <br>![](/exercises/ex3/images/insomniasuccessfulpost.png)
 
-27.	A successful message processing entry will be shown
-<br>![](/exercises/ex3/images/30.png)
+34. Switch back to the Integration Suite UI. Click on "Integrations and APIs" from the Monitor navigation item on the left pane 
+<br>![](/exercises/ex3/images/navigatebacktoISUITE.png)
+
+35. Navigate to tile "All Artifacts" under "Monitor Message Processing"
+<br>![](/exercises/ex3/images/mpltile.png)
+
+36.	A successful message processing entry will be shown against the copied "Message ID". Input the "message ID" copied in Step 33 in the ID search box.
+<br>![](/exercises/ex3/images/mplsuccess.png)
 
 ## Summary
 
