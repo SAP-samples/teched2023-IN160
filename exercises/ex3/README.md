@@ -55,7 +55,7 @@ After changing the values, click on "Save All"
 13.  Toast message with confirming that configuration is saved will be shown. Click Cancel to close the Configure dialog.
 <br>![](/exercises/ex3/images/configuresaved.png)
 
-14.	Click the Standard Content "Replicate Order from SAP Order Management Foundation to SAP S4HANA" row and navigate to the Artifact Editor view.
+14.	Click the integration flow "Replicate Order from SAP Order Management Foundation to SAP S4HANA" and navigate to the Artifact Editor view.
 <br>![](/exercises/ex3/images/15.png)
 
 15.	Look at the Artifact and validate whether required configurations are in place.
