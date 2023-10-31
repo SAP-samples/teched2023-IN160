@@ -13,7 +13,7 @@ The installation assumes that the following pre-requisites have been met:
 6.  A private key and a CA-signed certificate that we will use to establish HTTPS on the Istio Ingress Gateway
 7.  Control of the DNS registry in order to perform an A-record mapping of the Load Balancer IP with the virtual host alias that is established in the step above.
 
-These are only a few highlights and by no means an exhaustive list of system prerequisites needed to perform an end-to-end installation. Our help documentation : [https://help.sap.com/docs/integration-suite/beta-edge-integration-cell/before-you-start?version=CLOUD ](https://help.sap.com/docs/integration-suite/sap-integration-suite/before-you-start?version=CLOUD) will cover the system prerequisites, supported software versions, network dependencies, etc.
+These are only a few highlights and by no means an exhaustive list of system prerequisites needed to perform an end-to-end installation. Our help documentation : https://help.sap.com/docs/integration-suite/sap-integration-suite/before-you-start?version=CLOUD will cover the system prerequisites, supported software versions, network dependencies, etc.
 
 
 ## Installation Video
