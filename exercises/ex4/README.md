@@ -1,9 +1,9 @@
 # Exercise 4: Design and run an API on Edge Integration Cell
 
-In the final part of the tutorial, we will create an API, which is a unified entity that allows the API Developer to add policies as well as steps. For the purpose of this exercise, we would be creating an API using the REST endpoint URL with traffic management capabilities like Surge Protection and Quota, along with mediation capabilities in the form of a content modifier.
+In the concluding section of the tutorial, we will be focusing on the creation of an API, which serves as a consolidated entity enabling developers to incorporate both policies and steps. For this exercise, we will generate an API that directs to the same S/4 HANA REST endpoint URL employed in the prior exercise. Additionally, we will enhance its functionality by integrating traffic management features like Surge Protection and mediation capabilities such as the XML to JSON converter.
 
 ### Note
-Please replace the XX in userXX/UserXX with your respective user id
+Please replace the XX in userXX/UserXX with your respective user-id e.g user99
 
 ### Exercise steps
 
@@ -49,52 +49,41 @@ Please replace the XX in userXX/UserXX with your respective user id
     
 <br>![](/exercises/ex4/images/04_10_0010.png) 
 
-11. Click on the Surge Protection policy and you should see a pop-up with a set of actions. Click on the "+" icon and select Quota Policy. Double click on the quota policy and select the "Fixed" option from the dropdown
 
-<br>![](/exercises/ex4/images/04_11_0010.png)  
-
-12. Select the convenient time in the past from the Start Time (UTC) option using the control which pops up. Please note that the timestamp is in UTC. For the sake of this exercise , we have selected 12th October 11:00:00 (UTC) as the timestamp
-
-<br>![](/exercises/ex4/images/04_12_0010.png)
-
-13. Fill in the remaining fields in the Quota Policy property sheet and click on Save. For the purpose of this exercise, we are allowing 12 calls in a span of 30 seconds for any client which tries to access the API. The field "Quota Identifier" should uniquely identify the client against which the quota is assigned. As part of the highlighted configuration ,it expects "clientkey" header as part of the incoming request to contain the value of the client identifier. Failing to pass this header in the incoming request should fail the policy and hence the request, that is in accordance with the "On Error" configuration which is configured to "Abort" the request if the policy fails. We would verify this during the testing of the API
+11. Click on Surge Protection policy and when the pop-up opens, click on the "+" icon. Select the Content Modifier step under the Transfomration section
 
 <br>![](/exercises/ex4/images/04_13_0010.png)
 
-14. Click on Quota policy and when the pop up opens, click on the "+" icon. Select the Content Modifier step under the Transfomration section
-
-<br>![](/exercises/ex4/images/04_13_0010.png)
-
-15. Navigate to the property sheet of the content modifier and under the Message Header subtab add a custom header as shown in the image below. Click on Save
+12. Navigate to the property sheet of the content modifier and under the Message Header subtab add a custom header as shown in the image below. Click on Save
 
 <br>![](/exercises/ex4/images/04_14_0010.png)
 
-16. Now click on Deploy and this shall trigger the deployment of the content to the configured runtime edge location 
+13. Now click on Deploy and this shall trigger the deployment of the content to the configured runtime edge location 
 
 <br>![](/exercises/ex4/images/04_15_0010.png)
 
-17. Navigate to the monitoring tab and select the appropriate runtime location from the dropdown where the content is deployed
+14. Navigate to the monitoring tab and select the appropriate runtime location from the dropdown where the content is deployed
 
 <br>![](/exercises/ex4/images/04_16_0010.png)
 
-18. Click on Manage Integration Content and confirm that the deployed artifact is in a "Started" state and the API is deployed successfully
+15. Click on Manage Integration Content and confirm that the deployed artifact is in a "Started" state and the API is deployed successfully
 
 <br>![](/exercises/ex4/images/04_17_0010.png)
 
-19. From the dropdown, we would select Debug as the log level such that later on post execution of the API , we can visualize the execution of policies and steps in the deployed artifact
+16. From the dropdown, we would select Debug as the log level such that later on post execution of the API , we can visualize the execution of policies and steps in the deployed artifact
 
 <br>![](/exercises/ex4/images/04_18_0010.png)
 
     
-20. Now that we have successfully deployed the API , it is time to test the API. Lets make a call to the deployed artifact endpoint. It should throw an error as shown below since the clientkey header is not passed as part of the incoming request as mentioned in step 12
+17. Now that we have successfully deployed the API , it is time to test the API. Lets make a call to the deployed artifact endpoint. It should throw an error as shown below since the clientkey header is not passed as part of the incoming request as mentioned in step 12
 
 <br>![](/exercises/ex4/images/04_19_0010.png)
 
-21. Add the required header as part of the request.
+18. Add the required header as part of the request.
 
 <br>![](/exercises/ex4/images/04_20_0010.png)
 
-22. Now , we would try to violate the surge protection policy by invoking the same request multiple times and ideally , if we press the send button more than 6 times in span of 10 seconds, the surge protection policy should start blocking the requests.
+19. Now , we would try to violate the surge protection policy by invoking the same request multiple times and ideally , if we press the send button more than 6 times in span of 10 seconds, the surge protection policy should start blocking the requests.
 
 <br>![](/exercises/ex4/images/04_21_0010.png)
 
