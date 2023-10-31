@@ -2,6 +2,10 @@
 
 In the previous exercise, we have activated and deployed Edge Integration Cell runtime. Now let's look at how we can discover, design and run pre-built standard integrations on Edge Integration Cell. In this exercise, we will use a pre-built standard content to connect to SAP S/4HANA backend system, trigger execution of the content deployed on Edge Integration Cell and perform operations like update of the S/4HANA data objects.
 
+### Note
+
+For all the subsequent steps in this exercise, please replace the XX in userXX with your respective id e.g user99
+
 ##  Description
 
 After completing these steps you will have deployed a standard integration on Edge Integration Cell and successfully executed it with on-premise SAP S/4HANA system.
