@@ -33,5 +33,6 @@ Key Highlights:
 
 ## Summary
 
-Now that you have an overview of SAP Integration Suite and Edge Integration Cell, 
-continue to - [Exercise 1 - Get access to an SAP Integration Suite tenant](../ex1/README.md)
+Now that you have an overview of SAP Integration Suite and Edge Integration Cell.
+
+Continue to - [Exercise 1 - Get access to an SAP Integration Suite tenant](../ex1/README.md)
