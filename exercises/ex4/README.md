@@ -4,7 +4,7 @@ In the concluding section of the tutorial, we will be focusing on the creation o
 
 ### Note
 
-For all the subsequent steps in this exercise, please replace the XX in userXX with your respective id e.g user99
+For all the subsequent steps in this exercise, please replace the xx in userxx with your respective id e.g user99
 
 ### Exercise steps
 
