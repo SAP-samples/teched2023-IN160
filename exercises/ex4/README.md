@@ -92,8 +92,11 @@ For all the subsequent steps in this exercise, please replace the xx in userxx w
 17. Now that we have successfully deployed the API , it is time to test the API. Create a new request in the insomnia client in a similar fashion as mentioned in the [previous exercise](../ex3/README.md). In the url section , paste the url which was already copied to clipboard as part of the previous step.
 <br>
 Add the following credentials
-    * USERNAME = sb\-93d61073\-f8ba\-4faa\-98e0\-89fd3a424277\!b2246\|it\-rt\-iat\-prism\-std\!b144
-    * PASSWORD = 174ebb0d-4e0f-43dd-994a-58629ec524bf$mPrfigEVYsOs71X2jfWBkBB7e24Mi8M94xkCuREs1Yo=
+
+    
+        USERNAME = sb-93d61073-f8ba-4faa-98e0-89fd3a424277!b2246|it-rt-iat-prism-std!b144
+        PASSWORD = 174ebb0d-4e0f-43dd-994a-58629ec524bf$mPrfigEVYsOs71X2jfWBkBB7e24Mi8M94xkCuREs1Yo=
+    
 
 ![](/exercises/ex4/images/04_19_0010.png)
 
@@ -111,8 +114,8 @@ Add the following credentials
 
 21. We can see that the failure happened at the Surge protection policy and on clicking the "x" icon , we can see the actual error in the toast message
 
-<br>![](/exercises/ex4/images/04_22_0010.png)
-<br>![](/exercises/ex4/images/04_22_0010.png)
+<br>![](/exercises/ex4/images/04_23_0010.png)
+<br>![](/exercises/ex4/images/04_24_0010.png)
 
 ## Summary
 
