@@ -37,7 +37,7 @@ Click the listed package and navigate to the Package details view.
 10.  Click on Actions, and click Configure from the sub menu item
 <br>![](/exercises/ex3/images/11.png)
 
-11.  In the "Configure Selected Artifacts" dialog, and change the following parameter under Sender tab under Connection section. Suffix the address with the "_userXX" this is the same usernamw provided to you by the instructors.
+11.  In the "Configure Selected Artifacts" dialog, and change the following parameter under Sender tab under Connection section. Suffix the address with the "_userXX" this is the same user provided to you by the instructors.
 ```yaml
 Address = /s4onpremise/order_userXX
 ```
