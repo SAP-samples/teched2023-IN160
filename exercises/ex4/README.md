@@ -10,7 +10,7 @@ For all the subsequent steps in this exercise, please replace the xx in userxx w
 
 ***
 
-1. Navigate to the sub-navigation item - Integrations and APIs under the Design tab and click on Create to create a package
+1. Navigate to the sub-navigation item - "Integrations and APIs" under the Design tab on the left side pane and click on "Create" to create a package
 
 ![](/exercises/ex4/images/04_01_0010.png)
 
