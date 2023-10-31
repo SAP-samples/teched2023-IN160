@@ -77,26 +77,187 @@ After changing the values, click on "Save All"
 <br>![](/exercises/ex3/images/navigatetomonitorview.png)
 
 21.	In the Overview page, from the listed Runtime, select the Runtime location where the artifact is deployed in Step 19
-<br>![](/exercises/ex3/images/24.png)
+<br>![](/exercises/ex3/images/chooseedgeinmonitoring.png)
 
 22.	Click on tile "All" under "Manage Integration Content"
-<br>![](/exercises/ex3/images/25.png)
+<br>![](/exercises/ex3/images/tileselect.png)
 
-23.	Verify that the Standard Content deployed in Step 19 is in Started state
-<br>![](/exercises/ex3/images/26.png)
+23.	Verify that the Standard Content deployed in Step 19 is in Started state. Check the details like ID; it should be suffixed with userXX used during onboarding.
+<br>![](/exercises/ex3/images/iflowstarted.png)
 
-24.	Copy the generated endpoint
-<br>![](/exercises/ex3/images/27.png)
-
-25.	Open the Insomnia installed in your system, and paste the URL in the address and click Send. Wait for successful 200 response.
+24.	Copy the generated endpoint. In this case example URL is below (DO NOT COPY THIS URL)
 ```url
-https://az-slc.edge.integration.int.cloud.sap/http/s4onpremise/order
+[https://az-slc.edge.integration.int.cloud.sap/http/s4onpremise/order](https://eic-teched2023-demo.sapintegrationsuite.de/http/s4onpremise/order_user130)
 ```
-<br>![](/exercises/ex3/images/28.png)
+<br>![](/exercises/ex3/images/copyendpoint.png)
 
-26.	Go back to the Integration Suite UI and follow step 22 to step 23. 
-Navigate to tile "All Artifacts" under "Monitor Message Processing"
-<br>![](/exercises/ex3/images/29.png)
+25.	Open the Insomnia installed in your system
+    
+26.	Use "Scratch Pad" option when prompted to login
+<br>![](/exercises/ex3/images/insomniascratchpad.png)
+
+27. Create a new HTTP Request by clicking on '+' sign
+<br>![](/exercises/ex3/images/insomnianewrequest.png)
+
+28. Change the Request method from 'GET' to 'POST' and Paste the URL copied in Step 24 in the URL box
+<br>![](/exercises/ex3/images/insomnianewpostrequest.png)
+
+29. Set the payload. In the 'Body' tab, select JSON to add the JSON payload.
+<br>![](/exercises/ex3/images/insomniasetbody.png)
+
+31. Add the following payload in the body text area
+
+```json
+{
+  "id": "dc3ea1c1-b4fb-4fa0-a83f-c6ae843b879c",
+  "version": 1,
+  "orderNumber": 456789,
+  "precedingDocument": null,
+  "metadata": {
+    "createdAt": "2020-03-27T17:16:52.968Z",
+    "createdBy": null,
+    "changedAt": "2020-03-27T15:16:52.968Z",
+    "changedBy": null
+  },
+  "owner": "ruth@domain.com",
+  "market": {
+    "marketId": "A1",
+    "marketName": "US East",
+    "currency": "EUR",
+    "salesArea": {
+      "salesOrganization": "1710",
+      "distributionChannel": "10",
+      "division": "00"
+    }
+  },
+  "timeZone": "America/New_York",
+  "paymentData": [
+    {
+      "method": "Card",
+      "paymentCardToken": "as324dad333dddas22415ga"
+    }
+  ],
+  "customer": {
+    "customerNumber": "17100009",
+    "addresses": [
+      {
+        "street": "Billing Street",
+        "houseNumber": "1196",
+        "building": "buildBill-1",
+        "roomNumber": "11",
+        "floorNumber": "1",
+        "postalCode": "H1A 1H6",
+        "city": "Montreal",
+        "country": "CA",
+        "district": "bill2-district",
+        "state": "QC",
+        "phone": "5141112233",
+        "email": "Bill@Samplecustomer.Com",
+        "fax": "5141113344",
+        "additionalAddressInfo": null,
+        "correspondenceLanguage": "Fr",
+        "addressType": "BILL_TO",
+        "person": {
+          "firstName": "Bill",
+          "middleName": "MiddleBill",
+          "lastName": "LastNameBill",
+          "academicTitle": "Ms"
+        },
+        "pOBox": "1100"
+      },
+      {
+        "street": "Shipping Street",
+        "houseNumber": "2242",
+        "building": "ship-2",
+        "roomNumber": "22",
+        "floorNumber": "2",
+        "postalCode": "24152",
+        "city": "Chicago",
+        "country": "US",
+        "district": "ship2-district",
+        "state": "IL",
+        "phone": "2122223344",
+        "email": "Ship2@Samplecustomer.Com",
+        "fax": "2122224455",
+        "additionalAddressInfo": "test notes ship",
+        "correspondenceLanguage": "En",
+        "addressType": "SHIP_TO",
+        "person": {
+          "firstName": "Shipster",
+          "middleName": "MiddleShip",
+          "lastName": "LastNameShip",
+          "academicTitle": "Mr"
+        },
+        "pOBox": "abc"
+      }
+    ]
+  },
+  "description": "ruth's order",
+  "status": "RELEASED",
+  "priceType": "Net",
+  "customReferences": [],
+  "orderItems": [
+    {
+      "id": "4cd1629a-85be-41b4-b379-656288f25b21",
+      "lineNumber": "1",
+      "itemType": "physicalItem",
+      "quantity": {
+        "value": 3,
+        "unit": "PCE"
+      },
+      "product": {
+        "id": "e0981039-8298-464e-a8f0-32be92a8ba32",
+        "sourceSystemReference": {
+          "sourceSystemProductId": "TG11"
+        }
+      },
+      "customReferences": [],
+      "price": {
+        "aspectsData": {
+          "physicalItemPrice": {
+            "priceTotals": [
+              {
+                "priceCategory": "onetime",
+                "finalAmount": 40.68
+              }
+            ]
+          }
+        }
+      },
+      "aspectsData": {
+        "physicalItem": {
+          "scheduleLines": [
+            {
+              "deliverySource": {
+                "sourceId": "1710",
+                "sourceType": "STORE",
+                "sourceName": "Downtown"
+              },
+              "availableFrom": "2020-03-28T19:16:52.968Z",
+              "quantity": {
+                "unit": "PCE",
+                "value": 3
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
+```
+<br>![](/exercises/ex3/images/insomniabodypayload.png)
+
+31. Navigate to 'Auth' tab and select 'Basic Auth'
+<br>![](/exercises/ex3/images/insomniasetbasicauth.png)
+
+32.	Add the following credentials
+    - USERNAME = sb-93d61073-f8ba-4faa-98e0-89fd3a424277!b2246|it-rt-iat-prism-std!b144
+    - PASSWORD = 174ebb0d-4e0f-43dd-994a-58629ec524bf$mPrfigEVYsOs71X2jfWBkBB7e24Mi8M94xkCuREs1Yo=
+<br>![](/exercises/ex3/images/insomniabasicauthset.png)
+
+33.	Trigger the Endpoint - click on 'Send'. Upon success, you will receive '200 OK' status as a response. 
+<br>![](/exercises/ex3/images/insomniasuccessfulpost.png)
 
 27.	A successful message processing entry will be shown
 <br>![](/exercises/ex3/images/30.png)
