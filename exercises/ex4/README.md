@@ -25,7 +25,15 @@ For all the subsequent steps in this exercise, please replace the xx in userxx w
 
  <br>![](/exercises/ex4/images/04_04_0010.png)
 
-5. Fill in the details for the API as shown below
+5. Fill in the details for the API
+   ```
+   Name : Teched2023 API Artifact userxx
+   URL: https://proxyavrdev.hana.ondemand.com/Proxy/jenkslave55.cpi.c.eu-de-1.cloud.sap/9912/sap/bc/srt/scs_ext/sap/salesorderbulkrequest_in
+   API Base Path: /apiuserxx
+   API State (select from dropdown) : Active
+   API Version: 1.0.0
+   Runtime Profile (select from dropdown): Edge Integration Cell - sap-teched-node
+   ```
 
 <br>![](/exercises/ex4/images/04_05_0010.png)
 
