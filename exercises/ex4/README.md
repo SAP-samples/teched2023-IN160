@@ -83,25 +83,36 @@ For all the subsequent steps in this exercise, please replace the xx in userxx w
 
 ![](/exercises/ex4/images/04_15_0010.png)
 
-16. Select the artifact "Teched2023 API Artifact userxx" and you should see the endpoint which would be used to access the API. Click on the highlighted icon and this copy the deployed url to the clipboard. From the dropdown below , change the log level to "Debug" as shown below. Confirm the change on the dialog box which appears post the log level is changed from the dropdown
+16. Select the artifact "Teched2023 API Artifact userxx" and you should see the endpoint which would be used to access the API. Click on the highlighted icon and this copy the deployed url to the clipboard. From the dropdown below , change the log level to "Debug" as shown below. Confirm the change on the dialog box which appears post the log level is changed from the dropdown.
 
-![](/exercises/ex4/images/04_16_0010.png)
-![](/exercises/ex4/images/04_17_0010.png)
-![](/exercises/ex4/images/04_18_0010.png)
+<br>![](/exercises/ex4/images/04_16_0010.png)
+<br>![](/exercises/ex4/images/04_17_0010.png)
+<br>![](/exercises/ex4/images/04_18_0010.png)
 
-17. Now that we have successfully deployed the API , it is time to test the API. Create a new request in the insomnia client in a similar fashion as mentioned in the [previous exercise](../ex4/README.md). In the url section , paste the url which was already copied to clipboard as part of the previous step.Add the following credentials
+17. Now that we have successfully deployed the API , it is time to test the API. Create a new request in the insomnia client in a similar fashion as mentioned in the [previous exercise](../ex3/README.md). In the url section , paste the url which was already copied to clipboard as part of the previous step.
+<br>
+Add the following credentials
     * USERNAME = sb\-93d61073\-f8ba\-4faa\-98e0\-89fd3a424277\!b2246\|it\-rt\-iat\-prism\-std\!b144
     * PASSWORD = 174ebb0d-4e0f-43dd-994a-58629ec524bf$mPrfigEVYsOs71X2jfWBkBB7e24Mi8M94xkCuREs1Yo=
 
 ![](/exercises/ex4/images/04_19_0010.png)
 
-18. Add the required header as part of the request.
+18. Post a successful request, we would try to simulate the scenario, where we violate the criteria for surge protection policy. Execute the request on the insomnia client by clicking on the "Send" button repeatedly such that we end up executing more than 5 requests in a span of 10 seconds. Ideally, on making the 6th request, the surge protection policy should get triggered and you should see a response as shown in the UI. 
 
 ![](/exercises/ex4/images/04_20_0010.png)
 
-19. Now , we would try to violate the surge protection policy by invoking the same request multiple times and ideally , if we press the send button more than 6 times in span of 10 seconds, the surge protection policy should start blocking the requests.
+19. Now , we would navigate back to the monitoring UI to visualize the execution flow. Click on Monitor Message Processing link as shown in the UI for the artifact artifact "Teched2023 API Artifact userxx" and this should show all the executions of the API with the latest execution appearing right at the top
 
 ![](/exercises/ex4/images/04_21_0010.png)
+
+20. Select the latest execution entry click on the Debug link as shown below
+
+![](/exercises/ex4/images/04_22_0010.png)
+
+21. We can see that the failure happened at the Surge protection policy and on clicking the "x" icon , we can see the actual error in the toast message
+
+<br>![](/exercises/ex4/images/04_22_0010.png)
+<br>![](/exercises/ex4/images/04_22_0010.png)
 
 ## Summary
 
@@ -110,3 +121,4 @@ You've now completed the following:
 1. Able to model an API
 2. Deployed it on the Edge Integration Cell
 3. Execute the API and violate the surge protection policy successfully which prevents the backend from traffic surges
+4. Monitor the execution flow of the API 
