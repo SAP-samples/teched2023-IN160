@@ -15,7 +15,10 @@ For running through the exercise steps, you will need access to SAP Integration 
 2. Use the **username** and **password** shared by the instructors to login to the tenant assigned to you
 
 3. For Exercise 3 and Exercise 4, please use these Service Instance credentials
-
+   - clientid: sb-93d61073-f8ba-4faa-98e0-89fd3a424277!b2246|it-rt-iat-prism-std!b144
+   - clientsecret: 174ebb0d-4e0f-43dd-994a-58629ec524bf$mPrfigEVYsOs71X2jfWBkBB7e24Mi8M94xkCuREs1Yo=
+   - url: https://iat-prism-std.it-ziat003-rt.cfapps.eu21.hana.ondemand.com
+   - tokenurl: https://iat-prism-std.authentication.eu21.hana.ondemand.com/oauth/token
    
 ## Explore SAP Integration Suite tooling
 
