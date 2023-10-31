@@ -71,10 +71,10 @@ After changing the values, click on "Save All"
 <br>![](/exercises/ex3/images/21.png)
 
 19.	Once the deployment is successful, a confirmation toast message will be shown
-<br>![](/exercises/ex3/images/22.png)
+<br>![](/exercises/ex3/images/deployedsuccess.png)
 
 20.	Click on "Integrations and APIs" from the Monitor navigation item on the left pane. 
-<br>![](/exercises/ex3/images/23.png)
+<br>![](/exercises/ex3/images/navigatetomonitorview.png)
 
 21.	In the Overview page, from the listed Runtime, select the Runtime location where the artifact is deployed in Step 19
 <br>![](/exercises/ex3/images/24.png)
