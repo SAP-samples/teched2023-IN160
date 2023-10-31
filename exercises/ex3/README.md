@@ -10,7 +10,7 @@ After completing these steps you will have deployed a Standard Integration on Ed
 <br>![](/exercises/ex3/images/image.png)
 
 2.  In the "Discover (Integrations)" view, navigate to the Search text box and enter the following package name: "SAP Order Management Foundation Integration with SAP S/4HANA" and click Enter. From the list of results, click on listed package "SAP Order Management Foundation Integration with SAP S/4HANA" 
-<br>![](/exercises/ex3/images/3.png)
+<br>![](/exercises/ex3/images/package%20search.png)
 
 3.  In the package detail view, click on Copy button placed at top-right corner of the detail view
 <br>![](/exercises/ex3/images/4.png)
@@ -42,12 +42,12 @@ Click the listed package and navigate to the Package details view.
 
 14.  Navigate to the Receiver tab and change the following parameter values:
 ```yaml
-Address from http://<s4hana_hostname>/<s4hana_soap_endpoint> to https://proxyavrdev.hana.ondemand.com/Proxy/jenkslave55.cpi.c.eu-de-1.cloud.sap/9912/sap/bc/srt/scs_ext/sap/salesorderbulkrequest_in
-Proxy Type from On-Premise to Internet
-Credential Name from <s4hana credential> to <user will be provided during session>
+Address = https://proxyavrdev.hana.ondemand.com/Proxy/jenkslave55.cpi.c.eu-de-1.cloud.sap/9912/sap/bc/srt/scs_ext/sap/salesorderbulkrequest_in
+Proxy Type = Internet
+Authentication = None
 ```
 After changing the values, click on "Save All"
-<br>![](/exercises/ex3/images/13.png)
+<br>![](/exercises/ex3/images/configureiflow.png)
 
 15.  Toast message with confirming that configuration is saved will be shown
 <br>![](/exercises/ex3/images/14.png)
