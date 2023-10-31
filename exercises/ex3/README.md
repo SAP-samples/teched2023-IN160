@@ -1,10 +1,10 @@
 # Discover, design and run pre-built standard integrations on Edge Integration Cell
 
-In the previous exercise we have Activated and deployed an Edge Integration Cell, let's look at how we can Discover, design and run pre-built Standard Integrations on Edge Integration Cell. In this exercise we will use a pre-built standard content to connect to SAP S/4HANA backend system, trigger execution of the content deployed at Edge Integration Cell and perform operations like update of the S/4 HANA data objects.
+In the previous exercise, we have activated and deployed Edge Integration Cell runtime. Now let's look at how we can discover, design and run pre-built standard integrations on Edge Integration Cell. In this exercise, we will use a pre-built standard content to connect to SAP S/4HANA backend system, trigger execution of the content deployed on Edge Integration Cell and perform operations like update of the S/4HANA data objects.
 
 ##  Description
 
-After completing these steps you will have deployed a Standard Integration on Edge Integration Cell and successfully executed it with On-Premise S/4 HANA system.
+After completing these steps you will have deployed a standard integration on Edge Integration Cell and successfully executed it with on-premise SAP S/4HANA system.
 
 1. Navigate back to Home. In the Home page navigate to Capabilities and click on "Discover Integrations" under Build Integration Scenarios tile.
 <br>![](/exercises/ex3/images/image.png)
@@ -18,16 +18,16 @@ After completing these steps you will have deployed a Standard Integration on Ed
 4.  In the Messages pop-up, click on "Create copy" to create a named copy.
 <br>![](/exercises/ex3/images/5.png)
 
-5.  In the Provide suffix pop-up, enter the user Id that was provided with the tenant request. Clear the existing text which is shown as "14.10.2023.14.5.49" and enter userId e.g. userXXX and Click OK.
+5.  In the Provide suffix pop-up, enter the username that was provided to you. Clear the existing text which is shown as "14.10.2023.14.5.49" and enter username e.g. userXX and Click OK.
 <br>![](/exercises/ex3/images/6.png)
 
-6.  Upon confirmation, a Toast message "Package copied" will be shown. Click Close in the Messages pop-up 
+6.  Upon confirmation, a toast message "Package copied" will be shown. Click Close in the messages pop-up 
 <br>![](/exercises/ex3/images/7.png)
 
 7.  Click Design from the sub navigation item in the left pane and click on "Integrations and APIs" and search the copied package (see the next step).
 <br>![](/exercises/ex3/images/8.png)
 
-8.  In the search box, type userXXX which you used as suffix during package copy operation. Package name with suffix as ".userXXX" be listed e.g. "SAP Order Management Foundation Integration with SAP S/4HANA.user130". 
+8.  In the search box, type userXX which you used as suffix during package copy operation. Package name with suffix as ".userXX" be listed e.g. "SAP Order Management Foundation Integration with SAP S/4HANA.user130". 
 Click the listed package and navigate to the Package details view.
 <br>![](/exercises/ex3/images/9.png)
 
@@ -45,9 +45,9 @@ Address = /s4onpremise/order_userXX
 
 12.  Navigate to the Receiver tab and change the following parameter values:
 ```yaml
-Address = https://proxyavrdev.hana.ondemand.com/Proxy/jenkslave55.cpi.c.eu-de-1.cloud.sap/9912/sap/bc/srt/scs_ext/sap/salesorderbulkrequest_in
-Proxy Type = Internet
-Authentication = None
+In the "Address" field enter, https://proxyavrdev.hana.ondemand.com/Proxy/jenkslave55.cpi.c.eu-de-1.cloud.sap/9912/sap/bc/srt/scs_ext/sap/salesorderbulkrequest_in
+In the "Proxy Type" field choose, Internet
+and for "Authentication", choose None
 ```
 After changing the values, click on "Save All"
 <br>![](/exercises/ex3/images/configureiflow.png)
