@@ -43,7 +43,8 @@ For all the subsequent steps in this exercise, please replace the xx in userxx w
 
  7. Click on Edit and navigate to the policy tab and this is how the starter content should look like. As you can see the Authentication policy appears by default. Double click on the authentication policy and navigate to the property sheet at the bottom. By default Basic is not enabled and as an exercise, you should enable the Basic checkbox from the multi-select drop-down and click on Save
  
- <br>![](/exercises/ex4/images/04_07_0010.png) 
+ <br>![](/exercises/ex4/images/04_07_01_0010.png) 
+ <br>![](/exercises/ex4/images/04_07_02_0010.png)
 
  8. Click on the Authentication policy and you should see a pop-up with a set of actions. Click on the "+" icon
 
