@@ -52,10 +52,10 @@ and for "Authentication", choose None
 After changing the values, click on "Save All"
 <br>![](/exercises/ex3/images/configureiflow.png)
 
-13.  Toast message with confirming that configuration is saved will be shown
+13.  Toast message with confirming that configuration is saved will be shown. Click Cancel to close the Configure dialog.
 <br>![](/exercises/ex3/images/configuresaved.png)
 
-14.	Click the "Replicate Order from SAP Order Management Foundation to SAP S4HANA" row and navigate to the Artifact Editor view.
+14.	Click the Standard Content "Replicate Order from SAP Order Management Foundation to SAP S4HANA" row and navigate to the Artifact Editor view.
 <br>![](/exercises/ex3/images/15.png)
 
 15.	Look at the Artifact and validate whether required configurations are in place.
@@ -87,7 +87,7 @@ After changing the values, click on "Save All"
 
 24.	Copy the generated endpoint. In this case example URL is below (DO NOT COPY THIS URL)
 ```url
-[https://az-slc.edge.integration.int.cloud.sap/http/s4onpremise/order](https://eic-teched2023-demo.sapintegrationsuite.de/http/s4onpremise/order_user130)
+https://eic-teched2023-demo.sapintegrationsuite.de/http/s4onpremise/order_user130
 ```
 <br>![](/exercises/ex3/images/copyendpoint.png)
 
