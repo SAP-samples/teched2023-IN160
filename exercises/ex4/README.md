@@ -43,53 +43,55 @@ For all the subsequent steps in this exercise, please replace the xx in userxx w
 
 ![](/exercises/ex4/images/04_06_0010.png)
 
-7. Click on Edit and navigate to the "Policies" tab and this is how the starter content should look like. As you can see the Authentication policy appears by default. Double click on the authentication policy and navigate to the property sheet at the bottom. By default Basic is not enabled and for this exercise, you should enable the Basic checkbox from the multi-select drop-down and click on Save
+7. Click on Edit and navigate to the "Policies" tab and this is how the starter content should look like. As you can see the Authentication policy appears by default. 
 
 ![](/exercises/ex4/images/04_07_01_0010.png)
 
+8. Double click on the authentication policy and navigate to the property sheet at the bottom. By default "Basic" is not enabled and for this exercise, you should enable the Basic checkbox from the multi-select drop-down and click on Save
+
 ![](/exercises/ex4/images/04_07_02_0010.png)
 
-8. Click on the Authentication policy and you should see a pop-up with a set of actions. Click on the "+" icon
+9. Click on the Authentication policy and you should see a pop-up with a set of actions. Click on the "+" icon
 
 ![](/exercises/ex4/images/04_08_0010.png)
 
-9. Select the surge protection policy from the drop-down and add the Surge protection policy. The policy protects the target endpoint from a sudden spike in incoming requests. Navigate to the highlighted section below in the property sheet of the policy and fill in the details as shown in the UI. We are effectively configuring the policy to allow only 5 calls in a span of 10 seconds
+10. Select the surge protection policy from the drop-down and add the Surge protection policy. The policy protects the target endpoint from a sudden spike in incoming requests. Navigate to the highlighted section below in the property sheet of the policy and fill in the details as shown in the UI. We are effectively configuring the policy to allow only 5 calls in a span of 10 seconds
 
 ![](/exercises/ex4/images/04_09_0010.png)
 
-10. Click on Request Reply and when the pop-up opens, click on the "+" icon. Select "XML to JSON Converter" from the drop-down. Configure the step in accordance with the highlighted section shown in the UI and click on Save
+11. Click on Request Reply and when the pop-up opens, click on the "+" icon. Select "XML to JSON Converter" from the drop-down. Configure the step in accordance with the highlighted section shown in the UI and click on Save
 
 ![](/exercises/ex4/images/04_10_01_0010.png)
 
 ![](/exercises/ex4/images/04_10_02_0010.png)
 
-11. Now we are ready to deploy the API on Edge. Click on "..." icon on the top right corner and from the dropdown select "Deploy". During creation we had already configured the runtime profile and the hence this would deploy the API to the configured edge runtime profile
+12. Now we are ready to deploy the API on Edge. Click on "..." icon on the top right corner and from the dropdown select "Deploy". During creation we had already configured the runtime profile and the hence this would deploy the API to the configured edge runtime profile
 
 ![](/exercises/ex4/images/04_11_0010.png)
 
-12. Post a successful deployment , the status field for the API should change from "Not deployed" to the corresponding state. In the UI, the highlighted section shows that the API is successfully deployed and is ready for execution
+13. Post a successful deployment , the status field for the API should change from "Not deployed" to the corresponding state. In the UI, the highlighted section shows that the API is successfully deployed and is ready for execution
 
 ![](/exercises/ex4/images/04_12_0010.png)
 
-13. Navigate out of the edit view by selecting "Cancel" from the dropdown as shown
+14. Navigate out of the edit view by selecting "Cancel" from the dropdown as shown
 
 ![](/exercises/ex4/images/04_13_0010.png)
 
-14. Now we would navigate to the monitoring shell navigation item on the left and select "Integrations and API". Post the selection , we would select the edge runtime profile from the dropdown.
+15. Now we would navigate to the monitoring shell navigation item on the left and select "Integrations and API". Post the selection , we would select the edge runtime profile from the dropdown.
 
 ![](/exercises/ex4/images/04_14_0010.png)
 
-15. Under the Manage Integration Content section , click on the highlighted tile to navigate to the list view of all the deployed artifacts
+16. Under the Manage Integration Content section , click on the highlighted tile to navigate to the list view of all the deployed artifacts
 
 ![](/exercises/ex4/images/04_15_0010.png)
 
-16. Select the artifact "Teched2023 API Artifact userxx" and you should see the endpoint which would be used to access the API. Click on the highlighted icon and this copy the deployed url to the clipboard. From the dropdown below , change the log level to "Debug" as shown below. Confirm the change on the dialog box which appears post the log level is changed from the dropdown.
+17. Select the artifact "Teched2023 API Artifact userxx" and you should see the endpoint which would be used to access the API. Click on the highlighted icon and this copy the deployed url to the clipboard. From the dropdown below , change the log level to "Debug" as shown below. Confirm the change on the dialog box which appears post the log level is changed from the dropdown.
 
 <br>![](/exercises/ex4/images/04_16_0010.png)
 <br>![](/exercises/ex4/images/04_17_0010.png)
 <br>![](/exercises/ex4/images/04_18_0010.png)
 
-17. Now that we have successfully deployed the API , it is time to test the API. Create a new request in the insomnia client in a similar fashion as mentioned in the [previous exercise](../ex3/README.md). In the url section , paste the url which was already copied to clipboard as part of the previous step.
+18. Now that we have successfully deployed the API , it is time to test the API. Create a new request in the insomnia client in a similar fashion as mentioned in the [previous exercise](../ex3/README.md). In the url section , paste the url which was already copied to clipboard as part of the previous step.
 <br>
 Add the following credentials
 
@@ -100,19 +102,19 @@ Add the following credentials
 
 ![](/exercises/ex4/images/04_19_0010.png)
 
-18. Post a successful request, we would try to simulate the scenario, where we violate the criteria for surge protection policy. Execute the request on the insomnia client by clicking on the "Send" button repeatedly such that we end up executing more than 5 requests in a span of 10 seconds. Ideally, on making the 6th request, the surge protection policy should get triggered and you should see a response as shown in the UI. 
+19. Post a successful request, we would try to simulate the scenario, where we violate the criteria for surge protection policy. Execute the request on the insomnia client by clicking on the "Send" button repeatedly such that we end up executing more than 5 requests in a span of 10 seconds. Ideally, on making the 6th request, the surge protection policy should get triggered and you should see a response as shown in the UI. 
 
 ![](/exercises/ex4/images/04_20_0010.png)
 
-19. Now , we would navigate back to the monitoring UI to visualize the execution flow. Click on Monitor Message Processing link as shown in the UI for the artifact artifact "Teched2023 API Artifact userxx" and this should show all the executions of the API with the latest execution appearing right at the top
+20. Now , we would navigate back to the monitoring UI to visualize the execution flow. Click on Monitor Message Processing link as shown in the UI for the artifact artifact "Teched2023 API Artifact userxx" and this should show all the executions of the API with the latest execution appearing right at the top
 
 ![](/exercises/ex4/images/04_21_0010.png)
 
-20. Select the latest execution entry click on the Debug link as shown below
+21. Select the latest execution entry click on the Debug link as shown below
 
 ![](/exercises/ex4/images/04_22_0010.png)
 
-21. We can see that the failure happened at the Surge protection policy and on clicking the "x" icon , we can see the actual error in the toast message
+22. We can see that the failure happened at the Surge protection policy and on clicking the "x" icon , we can see the actual error in the toast message
 
 <br>![](/exercises/ex4/images/04_23_0010.png)
 <br>![](/exercises/ex4/images/04_24_0010.png)
