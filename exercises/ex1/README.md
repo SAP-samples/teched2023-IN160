@@ -7,7 +7,7 @@ In this exercise, you will
 
 ## Access SAP Integration Suite tenant
 
-For running through the exercise steps, you will need access to SAP Integration Suite tenants. Please pick one of these SAP Integration Suite tenant as per the assignment . You will also get the credentials to log in to these tenants from the instructors.
+For running through the exercise steps, you will need access to SAP Integration Suite tenant. Please pick one of these SAP Integration Suite tenant as per the assignment . You will also get the credentials to log in to these tenants from the instructors.
 
 1. Please use this **SAP Integration Suite tenant** for your exercises
       - https://iat-prism-std.integrationsuite-it-ziat003.cfapps.eu21.hana.ondemand.com/shell/home
