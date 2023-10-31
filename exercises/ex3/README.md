@@ -53,7 +53,7 @@ After changing the values, click on "Save All"
 <br>![](/exercises/ex3/images/configureiflow.png)
 
 13.  Toast message with confirming that configuration is saved will be shown
-<br>![](/exercises/ex3/images/14.png)
+<br>![](/exercises/ex3/images/configuresaved.png)
 
 14.	Click the "Replicate Order from SAP Order Management Foundation to SAP S4HANA" row and navigate to the Artifact Editor view.
 <br>![](/exercises/ex3/images/15.png)
@@ -62,10 +62,10 @@ After changing the values, click on "Save All"
 <br>![](/exercises/ex3/images/16.png)
 
 16.	Click Deploy
-<br>![](/exercises/ex3/images/deploy.png)
+<br>![](/exercises/ex3/images/deployclick.png)
 
 17.	Select Runtime Profile. Select one of the "Edge Integration Cell" runtime profile from the drop-down. And click Yes.
-<br>![](/exercises/ex3/images/20.png)
+<br>![](/exercises/ex3/images/deploy.png)
 
 18.	Click Ok on the Deployment dialog. 
 <br>![](/exercises/ex3/images/21.png)
