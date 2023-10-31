@@ -275,5 +275,5 @@ You've now completed the following:
 2. Configure and deploy it on Edge Integration Cell
 3. Send message to the backened system using an Integration flow
 
-Continue to - [Exercise 4 - Excercise 4 ](../ex4/README.md)
+Continue to - [Exercise 4 - Design and run an API on Edge Integration Cell](../ex4/README.md)
 
