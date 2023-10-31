@@ -64,7 +64,7 @@ Use this section to **Configure** API Providers, Certificates and Key Value Mapp
 <br>![](/exercises/ex1/images/Configure-APIs.jpg)<br><br><br>
 
 
-In the **Monitor** section, you can check the deployment status, look at message processing logs, manage security materials, data stores, message queues and all that you need to monitor and operate your integrations.
+In the **Monitor** section, you can check the deployment status, look at message processing logs, manage security materials, data stores, message queues and all that you need to monitor and operate your integrations across multiple runtimes.
 
 <br>![](/exercises/ex1/images/Monitor-Integration.jpg)<br><br><br>
 
