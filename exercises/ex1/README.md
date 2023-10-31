@@ -10,7 +10,7 @@ In this exercise, you will
 For running through the exercise steps, you will need access to SAP Integration Suite tenants. Please pick one of these SAP Integration Suite tenant as per the assignment . You will also get the credentials to log in to these tenants from the instructors.
 
 1. Please use this **SAP Integration Suite tenant** for your exercises
-      - [https://teched23blr05-hd53z03e.integrationsuite.cfapps.ap10.hana.ondemand.com/shell/home](https://iat-prism-std.integrationsuite-it-ziat003.cfapps.eu21.hana.ondemand.com/shell/home)
+      - https://iat-prism-std.integrationsuite-it-ziat003.cfapps.eu21.hana.ondemand.com/shell/home
 
 2. Use the **username** and **password** shared by the instructors to login to the tenant assigned to you
 
