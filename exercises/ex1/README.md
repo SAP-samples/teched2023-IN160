@@ -12,7 +12,9 @@ For running through the exercise steps, you will need access to SAP Integration 
 1. Please use this **SAP Integration Suite tenant** for your exercises
       - [https://teched23blr05-hd53z03e.integrationsuite.cfapps.ap10.hana.ondemand.com/shell/home](https://iat-prism-std.integrationsuite-it-ziat003.cfapps.eu21.hana.ondemand.com/shell/home)
 
-2. Use the **username** and **password** shared by the instructors to login to the tenant assigned to you     
+2. Use the **username** and **password** shared by the instructors to login to the tenant assigned to you
+
+3. For Exercise 3 and Exercise 4, please use these Service Instance credentials
 
    
 ## Explore SAP Integration Suite tooling
