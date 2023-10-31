@@ -37,7 +37,7 @@ Click the listed package and navigate to the Package details view.
 10.  Click on Actions, and click Configure from the sub menu item
 <br>![](/exercises/ex3/images/11.png)
 
-11.  In the "Configure Selected Artifacts" dialog, and change the following parameter under Sender tab under Connection section. Suffix the address with the "-userXX" this is the same user which you chose during the onboarding.
+11.  In the "Configure Selected Artifacts" dialog, and change the following parameter under Sender tab under Connection section. Suffix the address with the "_userXX" this is the same user which you chose during the onboarding.
 ```yaml
 Address = /s4onpremise/order_userXX
 ```
@@ -62,7 +62,7 @@ After changing the values, click on "Save All"
 <br>![](/exercises/ex3/images/16.png)
 
 16.	Click Deploy
-<br>![](/exercises/ex3/images/17.png)
+<br>![](/exercises/ex3/images/deploy.png)
 
 17.	Select Runtime Profile. Select one of the "Edge Integration Cell" runtime profile from the drop-down. And click Yes.
 <br>![](/exercises/ex3/images/20.png)
