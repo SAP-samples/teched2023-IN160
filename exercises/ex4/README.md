@@ -50,7 +50,7 @@ For all the subsequent steps in this exercise, please replace the xx in userxx w
 
  <br>![](/exercises/ex4/images/04_08_0010.png) 
 
- 9. Select the surge protection policy from the drop-down and add the Surge protection policy. The policy protects the target endpoint from a sudden spike in incoming requests
+ 9. Select the surge protection policy from the drop-down and add the Surge protection policy. The policy protects the target endpoint from a sudden spike in incoming requests. Navigate to the highlighted section below in the property sheet of the policy and fill in the details as shown in the UI. We are effectively configuring the policy to allow only 5 calls in a span of 10 seconds 
 
 <br>![](/exercises/ex4/images/04_09_0010.png) 
 
