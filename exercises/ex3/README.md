@@ -64,25 +64,25 @@ After changing the values, click on "Save All"
 16.	Click Deploy
 <br>![](/exercises/ex3/images/deployclick.png)
 
-17.	Select Runtime Profile. Select one of the "Edge Integration Cell" runtime profile from the drop-down. And click Yes.
+17.	Select the Runtime Profile as "Edge Integration Cell" from the drop-down, since we want to deploy this integration flow to this runtime. And click Yes.
 <br>![](/exercises/ex3/images/deploy.png)
 
 18.	Click Ok on the Deployment dialog. 
 <br>![](/exercises/ex3/images/21.png)
 
-19.	Once the deployment is successful, a confirmation toast message will be shown
+19.	Once the deployment is successful, a confirmation message will be shown
 <br>![](/exercises/ex3/images/deployedsuccess.png)
 
 20.	Click on "Integrations and APIs" from the Monitor navigation item on the left pane. 
 <br>![](/exercises/ex3/images/navigatetomonitorview.png)
 
-21.	In the Overview page, from the listed Runtime, select the Runtime location where the artifact is deployed in Step 19
+21.	In the Overview page, from the listed Runtime, select "Edge Integration Cell - ..." where the artifact was deployed in Step 19
 <br>![](/exercises/ex3/images/chooseedgeinmonitoring.png)
 
 22.	Click on tile "All" under "Manage Integration Content"
 <br>![](/exercises/ex3/images/tileselect.png)
 
-23.	Verify that the Standard Content deployed in Step 19 is in Started state. Check the details like ID; it should be suffixed with userXX used during onboarding.
+23.	Verify that the integration flow deployed in Step 19 is in **Started** state. Check the details like ID; it should be suffixed with your user - userXX.
 <br>![](/exercises/ex3/images/iflowstarted.png)
 
 24.	Copy the generated endpoint. In this case example URL is below (DO NOT COPY THIS URL)
@@ -99,7 +99,7 @@ https://eic-teched2023-demo.sapintegrationsuite.de/http/s4onpremise/order_user13
 27. Create a new HTTP Request by clicking on '+' sign
 <br>![](/exercises/ex3/images/insomnianewrequest.png)
 
-28. Change the Request method from 'GET' to 'POST' and Paste the URL copied in Step 24 in the URL box
+28. Change the Request method from 'GET' to 'POST' and paste the URL copied in Step 24 in the URL box
 <br>![](/exercises/ex3/images/insomnianewpostrequest.png)
 
 29. Set the payload. In the 'Body' tab, select JSON to add the JSON payload.
@@ -256,7 +256,7 @@ https://eic-teched2023-demo.sapintegrationsuite.de/http/s4onpremise/order_user13
     - PASSWORD = 174ebb0d-4e0f-43dd-994a-58629ec524bf$mPrfigEVYsOs71X2jfWBkBB7e24Mi8M94xkCuREs1Yo=
 <br>![](/exercises/ex3/images/insomniabasicauthset.png)
 
-33.	Trigger the Endpoint - click on 'Send'. Upon success, you will receive '200 OK' status as a response. Copy the "message ID" from the response 'message'
+33.	Trigger the message by clicking on 'Send'. Upon success, you will receive '200 OK' status as a response. Copy the "message ID" from the response 'message'
 <br>![](/exercises/ex3/images/insomniasuccessfulpost.png)
 
 34. Switch back to the Integration Suite UI. Click on "Integrations and APIs" from the Monitor navigation item on the left pane 
@@ -265,16 +265,15 @@ https://eic-teched2023-demo.sapintegrationsuite.de/http/s4onpremise/order_user13
 35. Navigate to tile "All Artifacts" under "Monitor Message Processing"
 <br>![](/exercises/ex3/images/mpltile.png)
 
-36.	A successful message processing entry will be shown against the copied "Message ID". Input the "message ID" copied in Step 33 in the ID search box.
+36.	Search the corresponding message processing log using the "message ID" copied in Step 33 by putting it in the ID search box and click enter. A completed message processing entry will be shown against the "Message ID", if message processing was successful.
 <br>![](/exercises/ex3/images/mplsuccess.png)
 
 ## Summary
 
 You've now completed the following:
-1.  Able to discover an Standard Integration content.
-2.  Deployed it on the Edge Integration Cell
-3.  Established the connectivity to On-Premise S/4 HANA
-4.  Iflow was executed successfully.
+1. Discover and use standard integration content
+2. Configure and deploy it on Edge Integration Cell
+3. Send message to the backened system using an Integration flow
 
 Continue to - [Exercise 4 - Excercise 4 ](../ex4/README.md)
 
