@@ -2,7 +2,7 @@
 
 In the final part of the tutorial, we will create an API, which is a unified entity that allows the API Developer to add policies as well as steps. For the purpose of this exercise, we would be creating an API using the REST endpoint URL with traffic management capabilities like Surge Protection and Quota, along with mediation capabilities in the form of a content modifier.
 
-## Note
+### Note
 Please replace the XX in userXX/UserXX with your respective user id
 
 ### Exercise steps
