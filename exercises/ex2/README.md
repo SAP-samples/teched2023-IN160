@@ -5,7 +5,7 @@ In this exercise, we will follow along with a recorded step-by-step video that t
 ## System pre-requisites
 
 The installation assumes that the following pre-requisites have been met:
-1.  First and foremost, we will need **privileges** to create Kubernetes Service in either EKS, AKS, or SuSE Rancher / RKE2. Please work with your internal IT teams to get hold of these.
+1.  First and foremost, we will need **privileges** to create Kubernetes Service in either Amazon EKS, Microsoft AKS, or SuSE Rancher / RKE2. Please work with your internal IT teams to get hold of these.
 2.  Optional - Kubernetes command line tool: kubectl, to dig into some of the internals. 
 3.  A technical user (P-User) already exists. The setup process performs an implicit Cloud Connector installation during the Kubernetes bootstrapping process. Please note that Cloud Connector comes in only for the management plane flows (and not during the actual API / Integration flow execution)
 4.  An S-user already exists. Using this S-User, a technical user in SAP Repositories Management  https://ui.repositories.cloud.sap/ will be created. This process is needed during the transfer of the code binaries from SAP's central repository to the customer's designated Container Registries.
