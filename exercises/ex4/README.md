@@ -28,14 +28,14 @@ For all the subsequent steps in this exercise, please replace the xx in userxx w
 
 5. Fill in the details for the API
 
-    ```
-    Name : Teched2023 API Artifact userxx
-    URL: https://proxyavrdev.hana.ondemand.com/Proxy/jenkslave55.cpi.c.eu-de-1.cloud.sap/9912/sap/bc/srt/scs_ext/sap/salesorderbulkrequest_in
-    API Base Path: /apiuserxx
-    API State (select from dropdown) : Active
-    API Version: 1.0.0
-    Runtime Profile (select from dropdown): Edge Integration Cell - sap-teched-node
-    ```
+| Field | Value |
+| ----- | ----- |
+| Name | Teched2023 API Artifact userxx |
+| URL | https://proxyavrdev.hana.ondemand.com/Proxy/jenkslave55.cpi.c.eu-de-1.cloud.sap/9912/sap/bc/srt/scs_ext/sap/salesorderbulkrequest_in |
+| API Base Path | /apiuserxx |
+| API State (select from dropdown) | Active |
+| API Version | 1.0.0 |
+| Runtime Profile (select from dropdown) | Edge Integration Cell - sap-teched-node |
 
 ![](/exercises/ex4/images/04_05_0010.png)
 
@@ -91,14 +91,13 @@ For all the subsequent steps in this exercise, please replace the xx in userxx w
 <br>![](/exercises/ex4/images/04_17_0010.png)
 <br>![](/exercises/ex4/images/04_18_0010.png)
 
-18. Now that we have successfully deployed the API , it is time to test the API. Create a new request in the insomnia client in a similar fashion as mentioned in the [previous exercise](../ex3/README.md). In the url section , paste the url which was already copied to clipboard as part of the previous step.
+18. Now that we have successfully deployed the API , it is time to test the API. Create a new request in the insomnia client in a similar fashion as mentioned in the [previous exercise](../ex3/README.md). In the url section , paste the url which was already copied to clipboard as part of the previous step.For the request , we would be using the credentials as shown below in the table
 <br>
-    Add the following credentials
 
-    | Field | Value |
-    | ----- | ----- |
-    | USERNAME | sb\-93d61073\-f8ba\-4faa\-98e0\-89fd3a424277\!b2246\|it\-rt\-iat\-prism\-std\!b144 |
-    | PASSWORD | 174ebb0d-4e0f-43dd-994a-58629ec524bf$mPrfigEVYsOs71X2jfWBkBB7e24Mi8M94xkCuREs1Yo= |
+| Field | Value |
+| ----- | ----- |
+| USERNAME | sb\-93d61073\-f8ba\-4faa\-98e0\-89fd3a424277\!b2246\|it\-rt\-iat\-prism\-std\!b144 |
+| PASSWORD | 174ebb0d-4e0f-43dd-994a-58629ec524bf$mPrfigEVYsOs71X2jfWBkBB7e24Mi8M94xkCuREs1Yo= |
 
 ![](/exercises/ex4/images/04_19_0010.png)
 
