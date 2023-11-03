@@ -93,12 +93,12 @@ For all the subsequent steps in this exercise, please replace the xx in userxx w
 
 18. Now that we have successfully deployed the API , it is time to test the API. Create a new request in the insomnia client in a similar fashion as mentioned in the [previous exercise](../ex3/README.md). In the url section , paste the url which was already copied to clipboard as part of the previous step.
 <br>
-Add the following credentials
+    Add the following credentials
 
-    
-        USERNAME = sb-93d61073-f8ba-4faa-98e0-89fd3a424277!b2246|it-rt-iat-prism-std!b144
-        PASSWORD = 174ebb0d-4e0f-43dd-994a-58629ec524bf$mPrfigEVYsOs71X2jfWBkBB7e24Mi8M94xkCuREs1Yo=
-    
+    | Field | Value |
+    | ----- | ----- |
+    | USERNAME | sb\-93d61073\-f8ba\-4faa\-98e0\-89fd3a424277\!b2246\|it\-rt\-iat\-prism\-std\!b144 |
+    | PASSWORD | 174ebb0d-4e0f-43dd-994a-58629ec524bf$mPrfigEVYsOs71X2jfWBkBB7e24Mi8M94xkCuREs1Yo= |
 
 ![](/exercises/ex4/images/04_19_0010.png)
 
