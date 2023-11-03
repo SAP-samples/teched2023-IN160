@@ -42,17 +42,30 @@ Click the listed package and navigate to the Package details view.
 <br>![](/exercises/ex3/images/11.png)
 
 11.  In the "Configure Selected Artifacts" dialog, and change the following parameter under Sender tab under Connection section. Suffix the address with the "_userXX" this is the same user provided to you by the instructors.
+
+<br>Address: 
 ```yaml
-Address = /s4onpremise/order_userXX
+/s4onpremise/order_userXX
 ```
 <br>![](/exercises/ex3/images/changesenderaddress.png)
 
 12.  Navigate to the Receiver tab and change the following parameter values:
-```yaml
-In the "Address" field enter, https://proxyavrdev.hana.ondemand.com/Proxy/jenkslave55.cpi.c.eu-de-1.cloud.sap/9912/sap/bc/srt/scs_ext/sap/salesorderbulkrequest_in
-In the "Proxy Type" field choose, Internet
-and for "Authentication", choose None
+
+<br>In the "Address" field, copy and paste: 
+```yaml 
+https://proxyavrdev.hana.ondemand.com/Proxy/jenkslave55.cpi.c.eu-de-1.cloud.sap/9912/sap/bc/srt/scs_ext/sap/salesorderbulkrequest_in
 ```
+
+<br> In the "Proxy Type" field choose 
+```yaml 
+Internet
+```
+
+<br> and for "Authentication", choose 
+```yaml 
+None
+```
+
 After changing the values, click on "Save All"
 <br>![](/exercises/ex3/images/configureiflow.png)
 
@@ -256,20 +269,26 @@ https://eic-teched2023-demo.sapintegrationsuite.de/http/s4onpremise/order_user13
 <br>![](/exercises/ex3/images/insomniasetbasicauth.png)
 
 32.	Add the following credentials
-    - USERNAME = sb-93d61073-f8ba-4faa-98e0-89fd3a424277!b2246|it-rt-iat-prism-std!b144
-    - PASSWORD = 174ebb0d-4e0f-43dd-994a-58629ec524bf$mPrfigEVYsOs71X2jfWBkBB7e24Mi8M94xkCuREs1Yo=
+<br> USERNAME =
+```yaml
+sb-93d61073-f8ba-4faa-98e0-89fd3a424277!b2246|it-rt-iat-prism-std!b144
+```
+<br> PASSWORD = 
+```yaml 
+174ebb0d-4e0f-43dd-994a-58629ec524bf$mPrfigEVYsOs71X2jfWBkBB7e24Mi8M94xkCuREs1Yo=
+```
 <br>![](/exercises/ex3/images/insomniabasicauthset.png)
 
-33.	Trigger the message by clicking on 'Send'. Upon success, you will receive '200 OK' status as a response. Copy the "message ID" from the response 'message'
+34.	Trigger the message by clicking on 'Send'. Upon success, you will receive '200 OK' status as a response. Copy the "message ID" from the response 'message'
 <br>![](/exercises/ex3/images/insomniasuccessfulpost.png)
 
-34. Switch back to the Integration Suite UI. Click on "Integrations and APIs" from the Monitor navigation item on the left pane 
+35. Switch back to the Integration Suite UI. Click on "Integrations and APIs" from the Monitor navigation item on the left pane 
 <br>![](/exercises/ex3/images/navigatebacktoISUITE.png)
 
-35. Navigate to tile "All Artifacts" under "Monitor Message Processing"
+36. Navigate to tile "All Artifacts" under "Monitor Message Processing"
 <br>![](/exercises/ex3/images/mpltile.png)
 
-36.	Search the corresponding message processing log using the "message ID" copied in Step 33 by putting it in the ID search box and click enter. A completed message processing entry will be shown against the "Message ID", if message processing was successful.
+37.	Search the corresponding message processing log using the "message ID" copied in Step 33 by putting it in the ID search box and click enter. A completed message processing entry will be shown against the "Message ID", if message processing was successful.
 <br>![](/exercises/ex3/images/mplsuccess.png)
 
 ## Summary
