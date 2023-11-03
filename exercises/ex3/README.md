@@ -269,11 +269,11 @@ https://eic-teched2023-demo.sapintegrationsuite.de/http/s4onpremise/order_user13
 <br>![](/exercises/ex3/images/insomniasetbasicauth.png)
 
 32.	Add the following credentials
-<br> USERNAME =
+<br>USERNAME =
 ```yaml
 sb-93d61073-f8ba-4faa-98e0-89fd3a424277!b2246|it-rt-iat-prism-std!b144
 ```
-<br> PASSWORD = 
+<br>PASSWORD = 
 ```yaml 
 174ebb0d-4e0f-43dd-994a-58629ec524bf$mPrfigEVYsOs71X2jfWBkBB7e24Mi8M94xkCuREs1Yo=
 ```
